@@ -25,9 +25,10 @@ There exists theory about diffrent networksystems which can be compared to the r
 
 (At the end of the project you want to find the answer to these questions)
 (Formulate a few, clear questions. Articulate them in sub-questions, from the more general to the more specific. )
-
- <li>test</li>
-*test
+<ul>
+   <li>test</li>
+<\ul>
+* test
 
 ## Expected Results
 
