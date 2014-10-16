@@ -16,6 +16,9 @@ Every day thousands/millions(?) of people travel by train in switzerland, so we 
 missing the next train or to long latency, espacilly when the delations add up. We are intrested how good the swiss railsystem is steeled against things like this.
 There exists theory about diffrent networksystems which can be compared to the real world system.
 
+As mentioned at the bottom we have connected SBB for datas. If we do not get them we will apply our ideas to a general gravity model, where the distance and population
+determine the strength of connections (contigency plan).
+
 ## The Model
 
 (Define dependent and independent variables you want to study. Say how you want to measure them.) (Why is your model a good abtraction of the problem you want to study?) (Are you capturing all the relevant aspects of the problem?)
@@ -26,13 +29,22 @@ There exists theory about diffrent networksystems which can be compared to the r
 (At the end of the project you want to find the answer to these questions)
 (Formulate a few, clear questions. Articulate them in sub-questions, from the more general to the more specific. )
 <ul>
-   <li>test</li>
-<\ul>
-* test
+   <li>Delation</li>
+   * How does the railsystem react to delations?
+   * What can happen in the worst case?
+   * EXists there a better solution?
+   <li>Network in general</li>
+   * What networksystem has the railwaysystem?
+   * Exists there a better system?
+   * How would the system work with another structure?
+</ul>
+
 
 ## Expected Results
 
 (What are the answers to the above questions that you expect to find before starting your research?)
+
+We expect that the railsystem fullfiths high standards and probably there will not be a better solution.
 
 
 ## References 
