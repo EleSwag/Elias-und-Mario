@@ -17,17 +17,16 @@ Every day we travel from our homes to Zürich. The train in the morning is often
 Up to 1 million people per day travel by train in switzerland. And as already mentioned, this number is rising. More and more people are going to work by train, our mobility in general is rising. Is it possible to push our railsystem more to the limit? And if yes how do its properties change. Such as how resitent is this system then (komischi formulierig???????????) to delays? Do they accumulate? ( tscheggi ned ganz)so w From time to time there are more or less severe delations  (=>delays??) which sometimes lead to missing the next train or to long latency, espacilly when the delations add up. We are intrested how good the swiss railsystem is steeled against things like this.)
 
 
-There exists theory about diffrent networksystems which can be compared to the real world system (QUelle agä?).  
-
 (As mentioned at the bottom <=?? am bode hää:-D ??) We have connected SBB for datas. Because we dont know if, and what kind of data we will get, we had to make two scenarios: 
+Best case: We get a rich dataset with:
 
-we do not get them we will apply our ideas to a general gravity model, where the distance and population
+Worst Case: We dont get any data:
+We will aply our ideas to a general gravity model, where the distance and population
 determine the strength of connections (contigency plan).
 
 ## The Model
 
 (Define dependent and independent variables you want to study. Say how you want to measure them.) (Why is your model a good abtraction of the problem you want to study?) (Are you capturing all the relevant aspects of the problem?)
-
 
 
 ## Fundamental Questions
@@ -36,25 +35,34 @@ determine the strength of connections (contigency plan).
 (Formulate a few, clear questions. Articulate them in sub-questions, from the more general to the more specific. )
 <ul>
 
-Were trying to find out how to rise the capacity of a railsystem by applying networktheories and by changing parameters of our model (<= Booom, do we agree?)
+Were trying to find out what modifications rise the capacity and the efficiency of a railsystem by applying networktheories and by changing parameters of our model (<= Booom, do we agree?).
+
+Interesting Parameters Scenario:
+*Connection/Connectiontypes (Ideas about changes from networktheory)
+*Delay Resitance (What can happen in the worst case?
+*Speed between stations
+*holdtime at the station
+*
 
    <li>Delation</li>
    * How does the railsystem react to delations?
    * What can happen in the worst case?
    * EXists there a better solution (?
    <li>Network in general</li>
+
    * What networksystem has the railwaysystem?
    * Exists there a better system?
    * How would the system work with another structure?
 </ul>
-How do
+
+Note: For the worst case may
 
 
 ## Expected Results
 
 (What are the answers to the above questions that you expect to find before starting your research?)
 
-We expect that the railsystem fullfiths high standards and probably there will not be a better solution.
+We expect that the railsystem fullfiths high standards and probably there will not be a better realistic solution (very pessimistic???:-D)
 
 
 ## References 
