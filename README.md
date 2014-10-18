@@ -24,9 +24,19 @@ Worst Case: We dont get any data:
 We will aply our ideas to a general gravity model, where the distance and population
 determine the strength of connections (contigency plan).
 
+
+
+
+
 ## The Model
 
 (Define dependent and independent variables you want to study. Say how you want to measure them.) (Why is your model a good abtraction of the problem you want to study?) (Are you capturing all the relevant aspects of the problem?)
+
+Look at the next chapter under Interesting parameters.
+
+
+Note: If you raise the capacity of a system there is the possibility that the demand for it raises too. For example it would be possible that faster train connections would cause more people going to work by train. WE WONT look at this parameter because the human demands are way to coplex to model. This would go beyond the scope of our work.
+
 
 
 ## Fundamental Questions
@@ -35,27 +45,20 @@ determine the strength of connections (contigency plan).
 (Formulate a few, clear questions. Articulate them in sub-questions, from the more general to the more specific. )
 <ul>
 
-Were trying to find out what modifications rise the capacity and the efficiency of a railsystem by applying networktheories and by changing parameters of our model (<= Booom, do we agree?).
+Were trying to find out what modifications rise the capacity and the efficiency of a railsystem by applying networktheories and by changing parameters of our model (<= Booom, do we agree?). How does the system act then (in terms of the following paramerts(<=??sounds weird)
 
-Interesting Parameters Scenario:
-*Connection/Connectiontypes (Ideas about changes from networktheory)
-*Delay Resitance (What can happen in the worst case?
+Interesting Parameters:
+*Network/Connection/Connectiontypes (What networksystem has the railwaysystem? Ideas about changes from networktheory? How does it work with different structures)
+*Delay Resitance (How does the system react? What can happen in the worst case?)
 *Speed between stations
 *holdtime at the station
 *
 
-   <li>Delation</li>
-   * How does the railsystem react to delations?
-   * What can happen in the worst case?
-   * EXists there a better solution (?
-   <li>Network in general</li>
+   
+Note: For the worst case 
 
-   * What networksystem has the railwaysystem?
-   * Exists there a better system?
-   * How would the system work with another structure?
-</ul>
 
-Note: For the worst case may
+
 
 
 ## Expected Results
