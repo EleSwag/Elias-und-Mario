@@ -57,18 +57,23 @@ This would go beyond the scope of our work.
 
 
 
-We are trying to find out what modifications rise the capacity and the efficiency of a rail system by applying network theories and by changing parameters of our model.
+We are trying to find out what modifications raise the capacity and 
+the efficiency of a rail system by applying network theories and by changing parameters of our model.
 How does the system react to the variation of the following parameters:
 
 <ul>
 <li>Network/Connection/Connection types </li> 
-* What network system has the railway system? 
-* Ideas about changes from network theory? 
-* How does it work with different structures)
+<ul> 
+<li>What network system has the railway system?  </li> 
+<li>Ideas about changes from network theory?  </li> 
+<li>How does it work with different structures? </li> 
+</ul>
 
 <li> Delay resistance </li>
-* How does the system react?
-* What can happen in the worst case?
+<ul>
+<li>How does the system react? </li> 
+<li>What can happen in the worst case? </li> 
+</ul>
 
 <li> Speed between stations</li>
 <li> Hold time at the station </li>
@@ -94,19 +99,16 @@ since there are a lot of other factors like economics which we did not look at.
 
 
 Marc Barthélemy, "Spital Networks", 2011:
-
 Chapter 2 and 3 Cover related things.
 
 
 
 Maciej Kurant and Patrick Thiran, "Extraction and analysis of traffic and topologies of transportation networks", 2006:
-
 Gives an algorithm to extract networks from a time table which we may can modify so that it takes also distance and capacity in account.
 
 
 
 Jago Dodson, Paul Mees, John Stone and Matthew Burke, "The Principles of Public Transport Network Planning: A review of the emerging literature with select examples", 2011
-
 Covers theory about different network systems which may can be applied to the swiss railway system.
 
 
