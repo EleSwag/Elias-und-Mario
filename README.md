@@ -14,27 +14,19 @@ But since the number of people traveling by train is increasing this problem wil
 
 Up to 1 million people per day travel by train in Switzerland. As already mentioned, this number is rising.
 More and more people are going to work by train, our mobility in general is ascending.
-So we asked our self if and how it is (would be?) possible to optimize the Swiss train system.
+So we asked our self if and how it would be possible to optimize the Swiss train system.
 Is it possible to push our rail system more to the limit? And if yes how do its properties change?
-
-
-Variant 1:
 Such as how resistant is this system against delays? Do they accumulate?
 
-
-Variant 2:
-From time to time there are more or less severe delays
-which sometimes lead to missing the next train or to long latency, especially when the delays add up. 
-We are interested how good the Swiss rail system is steeled against things like this.
 
 
 
 As mentioned at the bottom of the page we have connected SBB for data. 
 Since we do not know if, and what kind of data we will get, we had to make two scenarios: 
 
-* Best case: We get a rich dataset with time schedules, load factors etc.
+* <b>Best case</b>: We get a rich dataset with time schedules, load factors etc.
 
-* Worst Case: We do not get any data. We will then apply our ideas to a general gravity model, 
+* <b>Worst Case</b>: We do not get any data. We will then apply our ideas to a general gravity model, 
 where the distance and population determine the strength of connections (contingency plan).
 
 
@@ -46,9 +38,9 @@ where the distance and population determine the strength of connections (conting
 Look at the next chapter under Interesting parameters.
 
 
-Note: If you raise the capacity of a system there is the possibility that the demand for it raises too. 
+<b>Note</b>: If you raise the capacity of a system there is the possibility that the demand for it raises too. 
 For example it would be possible that faster train connections would cause more people going to work by train.
-We will not look at this parameter because the human demands are way to complex to model,
+We will not look at this parameter because the human demands are way too complex to model,
 especially since we did not find any data so we would have to make assumptions based on our perception.
 This would go beyond the scope of our work.
 
@@ -83,7 +75,7 @@ How does the system react to the variation of the following parameters:
 </ul>
 
    
-Note: For the worst case we look at similar parameters but in a more theoretical way. Like comparing models in general and so on.
+<b>Note</b>: For the worst case we look at similar parameters but in a more theoretical way. Like comparing models in general and so on.
 
 
 
@@ -109,8 +101,8 @@ Gives an algorithm to extract networks from a time table which we may can modify
 
 
 
-Jago Dodson, Paul Mees, John Stone and Matthew Burke, "The Principles of Public Transport Network Planning: A review of the emerging literature with select examples", 2011
-Covers theory about different network systems which may can be applied to the swiss railway system.
+Jago Dodson, Paul Mees, John Stone and Matthew Burke, "The Principles of Public Transport Network Planning: A review of the emerging literature with select examples", 2011:
+Covers theory about different network systems which we may be able to apply to the Swiss railway system.
 
 
 
