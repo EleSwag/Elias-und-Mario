@@ -1,7 +1,7 @@
 ﻿# MATLAB Fall 2014 – Research Plan
 
 
-> * Group name: Elio
+> * Group name: Maias
 > * Group participants names: Elias Rieder, Mario Vontobel
 > * Project Title: Swiss Train Network
 
@@ -9,11 +9,12 @@
 
 Every day we travel from our homes to Zürich. The train in the morning is often very crowded.
 Of course, compared to other countries, we are all still traveling quite comfortable. 
-But since we are perfectionists (?REALLY?) and since the number of people traveling by train is increasing,
-we asked our self if and how it is possible to optimize the Swiss train system.
+But since the number of people traveling by train is increasing this problem will even grow.
+
 
 Up to 1 million people per day travel by train in Switzerland. As already mentioned, this number is rising.
 More and more people are going to work by train, our mobility in general is ascending.
+So we asked our self if and how it is (would be?) possible to optimize the Swiss train system.
 Is it possible to push our rail system more to the limit? And if yes how do its properties change?
 
 
@@ -91,8 +92,8 @@ Note: For the worst case we look at similar parameters but in a more theoretical
 ## Expected Results
 
 We expect that the rail system fulfills high standards and probably there will not be a better realistic solution. 
-Maybe there will exists a better theoretical solution but which will probably not be realizable 
-since there are a lot of other factors like economics which we did not look at.
+Maybe there will exist a better theoretical solution but which will probably not be realizable 
+since there are a lot of other factors like economics which we do not look at.
 
 
 ## References 
