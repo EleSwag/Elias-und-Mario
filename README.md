@@ -14,7 +14,7 @@ But since the number of people traveling by train is increasing this problem wil
 
 Up to 1 million people per day travel by train in Switzerland. As already mentioned, this number is rising.
 More and more people are going to work by train, our mobility in general is ascending.
-So we asked our self if and how it would be possible to optimize the Swiss train system.
+So we asked ourselves if and how it would be possible to optimize the Swiss train system.
 Is it possible to push our rail system more to the limit? And if yes how do its properties change?
 Such as how resistant is this system against delays? Do they accumulate?
 
