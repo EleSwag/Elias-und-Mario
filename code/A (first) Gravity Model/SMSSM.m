@@ -35,10 +35,9 @@ Flow
 %population of the 10 biggest citys (Dates 2010 http://de.wikipedia.org/wiki/Liste_der_Städte_in_der_Schweiz)
 %+ ?? important node citys????
 %order={Zürich;Genf;Basel;Lausanne;Bern;Winterthur;Luzern;St.
-%Gallen;Lugano;Biel;+node citys???
+%Gallen;Lugano;Biel;node Olten;node Arthgoldau(http://de.wikipedia.org/wiki/Eisenbahnknoten#Schweiz)}
 
-populationvector={372857;187470;163216;127821;124381;101308;77491;72959;54667;51203};
-
+populationvector={372857;187470;163216;127821;124381;101308;77491;72959;54667;51203;1770;11062};
 
 
 
