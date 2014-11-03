@@ -3,6 +3,20 @@
 %population vector
 %population of the 10 biggest citys (Dates 2010 http://de.wikipedia.org/wiki/Liste_der_Städte_in_der_Schweiz)
 %+ ?? important node citys????
+
+citynames={'Zuerich',
+           'Genf',
+           'Basel',
+           'Lausanne',
+           'Bern',
+           'Winterthur',
+           'Luzern',
+           'St.Gallen',
+           'Lugano',
+           'Biel',
+           'Olten',
+           'Arthgoldau'};
+%Gallen;Lugano;Biel;node Olten;node Arthgoldau
 %order={Zürich;Genf;Basel;Lausanne;Bern;Winterthur;Luzern;St.
 %Gallen;Lugano;Biel;node Olten;node Arthgoldau(http://de.wikipedia.org/wiki/Eisenbahnknoten#Schweiz)}
 
