@@ -30,7 +30,7 @@ for i=1:12
          citynamesprime=[citynamesprime(1:j-l);citynamesprime(j-l+2:end)];
          l=l+1;
       end
-  end
+     end
    
     legend(citynamesprime,'Location','BestOutside');
 end 
