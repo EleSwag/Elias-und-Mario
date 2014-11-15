@@ -16,6 +16,16 @@ citynames={'Zuerich',
            'St.Gallen',
            'Lugano',
            'Biel',
+           'Thun',
+           'Koeniz',
+           'La Chaux-de-Fonds',
+           'Schaffhausen',
+           'Freiburg',
+           'Chur',
+           'Neuenburg',
+           'Vernier',
+           'Uster',
+           'Sion',
            'Olten',
            'Arthgoldau'};
 
@@ -31,6 +41,16 @@ populationvector=[372857;
                   72959;
                   54667;
                   51203;
+                  42623;
+                  38823;
+                  37504;
+                  34943;
+                  34897;
+                  33756;
+                  33054;
+                  32844;
+                  32265;
+                  30363;                              
                   11770;
                   11062];
 
