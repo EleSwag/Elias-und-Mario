@@ -21,8 +21,8 @@ for i=1:n
         end
     end
 end
-
 Flow=Flow/norm(Flow);
+
 
 end
 
