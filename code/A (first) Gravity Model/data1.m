@@ -106,8 +106,7 @@ timeconnection=[x x 71 x 65 19 46 x x x 31 38;
 
 
 cities={citynames,coordinates, populationvector};
-connectionmatrix =
-[
+connectionmatrix =[
 0 0 1 0 1 1 1 0 0 0 0 0 0 1 0 1 0 0 1 0 1 1;
 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0;
 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0;
@@ -129,6 +128,5 @@ connectionmatrix =
 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 1 0 1 0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0;
-1 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0}
-]
+1 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0];
 
