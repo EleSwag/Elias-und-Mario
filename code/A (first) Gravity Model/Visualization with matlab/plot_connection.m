@@ -1,4 +1,4 @@
-function  plot_connection(Network,Coordinates)
+function  plot_connection(Network,Coordinates,scalingfactor)
 % Coordiantes are the x-y-Coordinates of the the nodes 
 % Network is a adjacency matrix of a network and the funktion plots the 
 % connection in a coordinate system.
@@ -11,7 +11,7 @@ function  plot_connection(Network,Coordinates)
 % given Network, since all values exept a few are really small and then
 % there are also a lot of connection which make the figure unreadable...
 
-m = max(max(Network,[],1));
+m = scalingfactor;
 
 n=size(Network,1);
 
