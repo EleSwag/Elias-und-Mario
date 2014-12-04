@@ -87,6 +87,21 @@
 \section{Introduction and Motivations}
 
 \section{Description of the Model}
+\subsection{Gravity model}
+In  social science -especially in international economics in trade simulations- it is a common and well established approach to simulate flows with a gravity model. The motivation behind it is the physical gravity force. This is defined by $F_G:=G\frac{m_1 m_2}{r^2}$, where G is the gravity constant, $m_i$ is the mass of the  i-Th body for $i=1,2$ and r is the distance between body 1 and body 2.
+
+This leads to the general ansatz:
+\begin{align*}
+F_{ij}=G\frac{M_i^{\beta_1}M_j^{\beta_2}}{D_{ij}^{\beta_3}}
+\end{align*}
+
+($\leadsto$wikipedia)\newline
+
+We transferred this idea to our situation by identifying the mass of a city to its population and used different definitions of distance. We dropped the constant at the beginning since we normalized the resulting flow anyway. As exponents we have chosen $\beta_1=\beta_2=\beta_3=1$ since with no experience this was as suitable as anything else.
+
+\subsection{Investigation of the resulting network}
+
+
 
 \section{Implementation}
 

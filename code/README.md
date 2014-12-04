@@ -1,3 +1,5 @@
 # Code Folder 
 
-Your code goes here. You could also replace the content of this file with something more meaningful
+In the Gravity model-folder are several subfolders with meaningful names. 
+Some functions appear more then once. 
+We have chocen this structure to have a good overlook over the different aspects we have worked on.
