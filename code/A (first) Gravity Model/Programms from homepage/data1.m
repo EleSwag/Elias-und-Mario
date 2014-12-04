@@ -1,10 +1,9 @@
-% first real dataset
+% collection of all used data
 
-% population vector
-% population of the 10 biggest citys 
-% + 2 important nodes(Olten+ Arth-Goldau)
-% http://de.wikipedia.org/wiki/Eisenbahnknoten#Schweiz
-% http://de.wikipedia.org/wiki/Liste_der_Städte_in_der_Schweiz
+% all n x 1 vectors have the same size and sequence
+
+% citynames from the 20 biggest cities in Switzerland + additional importan
+% nodes(Olten and Arthgoldau)
 
 citynames={'Zuerich',
            'Genf',
@@ -29,7 +28,7 @@ citynames={'Zuerich',
            'Olten',
            'Arthgoldau'};
 
-   
+% populations   
 
 populationvector=[372857;
                   187470;
@@ -54,10 +53,11 @@ populationvector=[372857;
                   11770;
                   11062];
 
-% connection Matrix
+% connection Matricies
 
-% one way via timeconnections
-x=inf;
+% first we only had 10 cities, we looked up on SBB.ch the connections
+% between the cities as a first distance indicator
+x=0;
 
 timeconnection=[x x 71 x 65 19 46 x x x 31 38;
                 x x x 33 x x x x x x x x;
@@ -106,6 +106,11 @@ timeconnection=[x x 71 x 65 19 46 x x x 31 38;
 
 
 cities={citynames,coordinates, populationvector};
+
+% same idea as in the timeconnection: Looked up on the internet if two
+% nodes are directly connected or not. But this time we only looked if yes
+% or no since we combined this with the geographical distance
+
 connectionmatrix =[
 0 0 1 0 1 1 1 0 0 0 0 0 0 1 0 1 0 0 1 0 1 1;
 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0;
@@ -130,3 +135,54 @@ connectionmatrix =[
 1 0 1 0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0;
 1 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0];
 
+
+% additional information we got from the SBB-workers
+% boarding tells how many people arrive at this station
+% deboarding how many people leave at this station per day
+% We will use this information to compare the real results with the one we
+% get from the gravity model
+
+boarding=[181900;
+           28300;
+           49500;
+           43200;
+           57800;
+           44300;
+           37200;
+           19000;
+               0;
+           20100;
+               0;
+               0;
+               0;
+               0;
+               0;
+               0;
+               0;
+               0;
+               0;
+               0;
+           33300;
+               0];
+ 
+deboarding=[178300;
+             27200;
+             47200;
+             42600;
+             55900;
+             43300;
+             36700;
+             18800;
+                 0;
+             19500;
+                 0;
+                 0;
+                 0;
+                 0;
+                 0;
+                 0;
+                 0;
+                 0;
+                 0;
+             34500;
+                0];

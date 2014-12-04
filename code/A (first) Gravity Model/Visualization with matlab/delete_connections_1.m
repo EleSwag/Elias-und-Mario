@@ -11,10 +11,7 @@
     
 
 
-% First generat points
-    % Problem with labeling... tried to solve it by using colors...it's not
-    % that bad but still not so good visable...
-
+% First generat points(for detailed informations look at map1)
 for i=1:size(cities{2},1)
 plot(cities{2}(i,1),cities{2}(i,2),'*','Color',[1-i/22 0 i/22]);
 hold on
@@ -23,8 +20,11 @@ legend(cities{1},'Location','BestOutSide');
 title('City map of switzerland');
 
 
+% appropriate scaling factor for plot_connection (need it at the bottom
+% again)
  max1=max(max(flow,[],1));
-% Plot Connections
+
+ % Plot Connections
  plot_connection(flow,cities{2},max1);
  
  Network=flow;
@@ -52,7 +52,10 @@ title('City map of switzerland');
         end
     end
     
-    % this for loop checks if the network is still connected
+    % this for loop checks if there is a isoladet node (function which
+    % checks connectivity came up later, it would be more suitable to use 
+    % this one here)
+    
     for k=1:n
         if norm(flow(:,k)) == 0
         connection=0;
@@ -67,7 +70,7 @@ title('City map of switzerland');
  
  
  
- % plots a new figure with the isoladet node
+ % plots a new figure with the isolated node
  figure
  for i=1:size(cities{2},1)
 plot(cities{2}(i,1),cities{2}(i,2),'*','Color',[1-i/22 0 i/22]);
@@ -76,8 +79,3 @@ end
 legend(cities{1},'Location','BestOutSide');
 title('City map of switzerland');
 plot_connection(flow,cities{2},max1);
-
-% just check until one node is completly isoladet, but actually should have
-% to look if the network has more than one component.... for this we need
-% the effective distance function...
- 

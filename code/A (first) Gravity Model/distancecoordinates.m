@@ -2,6 +2,10 @@ function [ distancenetwork ] = distancecoordinates(coordinates)
 % Calculates the distance between all nodes if coordiantes are given
 % (by just applying pythagoras)
 
+% Pre: coordinates is a n x 2 vector in the xy-plane
+% Post: A network given in adjacency matrix where the ij-th entry gives the
+%       distance from i to j
+
 n= size(coordinates,1);
 distancenetwork=zeros(n);
 

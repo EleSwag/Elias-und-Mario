@@ -3,7 +3,7 @@
 % Only index of a city is its population
 % the distance is determined by the time it takes to travel by train 
 % (shortest one)
-% later we will try to take more factors in account just like
+% later we will -may- try to take more factors in account just like
 % acctractiviness of a city etc
 
 

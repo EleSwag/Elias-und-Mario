@@ -1,4 +1,4 @@
-% compination of map1 and map2
+% combination of map1 and map2
 
 % Call and generat data
     data1;
@@ -20,4 +20,7 @@ legend(cities{1},'Location','BestOutSide');
 title('City map of switzerland');
 
 % Plot Connections
- plot_connection(flow.*connectionmatrix,cities{2});
+
+% scaling factor
+ m=max(max(flow,[],1));
+ plot_connection(flow.*connectionmatrix,cities{2},m);
