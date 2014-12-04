@@ -1,4 +1,4 @@
-function [ Flow ] = networkflow(Population, Network)
+function [ Flow ] = extendednetworkflow(Population, Network)
 %Flow: Wrote a function of our first gravity model, so it will be easier to
 % apply different datasets to it.
 
@@ -6,12 +6,15 @@ function [ Flow ] = networkflow(Population, Network)
 % Network is the represantion in an adjacency matrix
 n=size(Population);
 
-gravity =@(city1,city2,distance) (city1.*city2)./distance;
+extendedgravity =@(city1,city2,distance) (city1.*city2)./distance;
+Populationmatrix=Network.*Population;
+Distancematrix=Network.*distance;
+
 
 
 Flow = zeros(n);
 for i=1:n
-Flow(:,i)=gravity(Population(i),Population,Network(i,:)');
+Flow(:,i)=extendedgravity(Population(i),Population,Network(i,:)');
 end
 
 for i=1:n
