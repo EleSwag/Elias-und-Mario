@@ -86,9 +86,16 @@
 
 \section{Introduction and Motivations}
 
+\subsection{Idea and Motivation}
+
+
+Every day we travel from our homes to Zürich. The train in the morning is often very crowded and a lot of delays occur. This circumstance made us think about how the network works and how you could handle such capacity shortages better. So the general idea was to model the Swiss train network and then look at its properties. This may sound like a very general question and it is and it had to be:?????????????? As you can imagine the whole schedule is quiet complex and consists a lot of data. At this point we didn't know how much and what kind of data we would have access to. We heard in our lecture that the number of inhabitants has an influence on the amount of traffic. The Type of model using this approach is called Gravity model.So we had two approaches to start with: The Gravity model, witch we will be explained in detail after, and the effort getting real data.Because our interest in the problem came from observations in our everyday life, it was very important to us that our work would have a strong connection to reality. To make this hapen, we wrote to a mail to SBB, the Swiss Rail company????????????, and asked them for real Data. 
+
+
 \section{Description of the Model}
 \subsection{Gravity model}
 In  social science -especially in international economics in trade simulations- it is a common and well established approach to simulate flows with a gravity model. The motivation behind it is the physical gravity force. This is defined by $F_G:=G\frac{m_1 m_2}{r^2}$, where G is the gravity constant, $m_i$ is the mass of the  i-Th body for $i=1,2$ and r is the distance between body 1 and body 2.
+
 
 This leads to the general ansatz:
 \begin{align*}
@@ -98,6 +105,10 @@ F_{ij}=G\frac{M_i^{\beta_1}M_j^{\beta_2}}{D_{ij}^{\beta_3}}
 ($\leadsto$wikipedia)\newline
 
 We transferred this idea to our situation by identifying the mass of a city to its population and used different definitions of distance. We dropped the constant at the beginning since we normalized the resulting flow anyway. As exponents we have chosen $\beta_1=\beta_2=\beta_3=1$ since with no experience this was as suitable as anything else.
+
+
+\subsection{A first Gravity Model}Our first approach to model the swiss train sytem was a gravity model. In such a model you make an anology to Newtons law of gravity to model social systems. Like in Newtons conncept there are the elemnts of distance and mass.%{(http://en.wikipedia.org/wiki/Gravity_model)}Our first Gravity Model contains 12 cities. We took the 10 swiss cities with the most inhabitants. We looked up all connections between them on the online train scedule (sbb.ch). On this website we stumbled also on a map with realtime visualisation of the trains goin. With these two Tools and some Literature we realized that we needed two more nodes %{(http://de.wikipedia.org/wiki/Eisenbahnknoten#Schweiz)}.The firstone is Olten. It is listed in the literature and while looking up the train connections we saw that a lot of the intercity trains are stoping in Olten. The secondone is Arth-Goldau. It is also listed in the literature and apears in almost every north south connection (connections to Ticino).So we assumed these must bet wo „nodepoints????????????????????“Blabla Population Vector lalalallaalalSo for the first model his our NodesTo make the link to the gravity model, the Nuber of inhabitants represents the mass of a node. So we had to deal with the distance parameter. We decided to define it as the shortest time of a connection displayed in the online scedule. This definition seemed resonable because like that we had all informations for the model straight from the online scedule. We assumed the time to get from one city to another is both directions the same.We formed the distance information into a adjacency matrix to represent the connections between the cities.  We characterised a connection to be only direct. For example if a train goes from Zürich to Lausanne and stops in Bern, it will be counted as 2 connections (Zürich-Bern, Bern-Lausanne). The entry in the matrix of a connection is the time .... muesi do so triviale shit schribe???????????At this point we had everythingg ready for our gravity function:(Swag ine;)\subsection{The extended Gravity Model}As we were looking at our Connnection Map, we had the visual impression that the Nework was to trivial and didnt covered big areas of Switzerland, for example Grisons. So we decided to extend the model to a bigger number of cities. Cities with more than 30 thousand inhabitants seemed a good choice. It leaded us the 20 biggest cities wich is realistic number of citiey to acquire the data by hand.  Of course we added Olten and Arthgoldau again.We kept the Definitions for the Matrix similar. The connection is a connection if you can travel from one nodeto another without changing train and if you dont stop in one of the 22 cities. Only thing that changed is the distance parameter. We chanched it to the real geographical distance (why????:D). To implemet that we defined a Coordinates Vector.
+
 
 \subsection{Investigation of the resulting network}
 
