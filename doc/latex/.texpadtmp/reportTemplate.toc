@@ -2,10 +2,10 @@
 \contentsline {section}{\numberline {2}Individual contributions}{4}
 \contentsline {section}{\numberline {3}Introduction and Motivations}{4}
 \contentsline {subsection}{\numberline {3.1}Idea and Motivation}{4}
-\contentsline {section}{\numberline {4}Description of the Model}{4}
-\contentsline {subsection}{\numberline {4.1}Gravity model}{4}
+\contentsline {section}{\numberline {4}Description of the Model}{5}
+\contentsline {subsection}{\numberline {4.1}Gravity model}{5}
 \contentsline {subsection}{\numberline {4.2}A first Gravity Model}{5}
-\contentsline {subsection}{\numberline {4.3}The extended Gravity Model}{5}
+\contentsline {subsection}{\numberline {4.3}The extended Gravity Model}{6}
 \contentsline {subsection}{\numberline {4.4}Investigation of the resulting network}{6}
 \contentsline {section}{\numberline {5}Implementation}{6}
 \contentsline {section}{\numberline {6}Simulation Results and Discussion}{6}
