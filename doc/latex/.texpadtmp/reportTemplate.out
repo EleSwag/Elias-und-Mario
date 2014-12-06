@@ -3,9 +3,9 @@
 \BOOKMARK [1][-]{section.3}{Introduction and Motivations}{}% 3
 \BOOKMARK [2][-]{subsection.3.1}{Idea and Motivation}{section.3}% 4
 \BOOKMARK [1][-]{section.4}{Description of the Model}{}% 5
-\BOOKMARK [2][-]{subsection.4.1}{Gravity model}{section.4}% 6
-\BOOKMARK [2][-]{subsection.4.2}{Development of the gravity modell/Gravity model with adjacency/connection matrix }{section.4}% 7
-\BOOKMARK [2][-]{subsection.4.3}{Distance}{section.4}% 8
+\BOOKMARK [2][-]{subsection.4.1}{The Classic Gravity model}{section.4}% 6
+\BOOKMARK [2][-]{subsection.4.2}{The Connectionmatrix Gravity Model}{section.4}% 7
+\BOOKMARK [2][-]{subsection.4.3}{The Extended Connectionmatrix Gravity Model}{section.4}% 8
 \BOOKMARK [2][-]{subsection.4.4}{Investigation of the resulting network\(theory of network parameters\)}{section.4}% 9
 \BOOKMARK [1][-]{section.5}{Implementation}{}% 10
 \BOOKMARK [2][-]{subsection.5.1}{Networkflow-function}{section.5}% 11

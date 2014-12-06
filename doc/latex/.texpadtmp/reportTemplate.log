@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.6.24)  6 DEC 2014 10:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.6.24)  6 DEC 2014 14:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -428,13 +428,7 @@ Overfull \hbox (5.3226pt too wide) in paragraph at lines 43--61
 
 [2]
 (/Users/eliasriederalt/CloudStation/MsssM/Elias-und-Mario/doc/latex/.texpadtmp/
-reportTemplate.toc
-Overfull \hbox (35.53229pt too wide) in paragraph at lines 7--7
- [][] [][]\OT1/cmr/m/n/12 Development of the grav-ity mod-ell/Gravity model wit
-h ad-ja-cency/connection 
- []
-
-)
+reportTemplate.toc)
 \tf@toc=\write4
 \openout4 = `reportTemplate.toc'.
 
@@ -442,13 +436,7 @@ h ad-ja-cency/connection
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¼ in font cmr12!
  [4]
-Overfull \hbox (51.00922pt too wide) in paragraph at lines 124--124
-[]\OT1/cmr/bx/n/12 Development of the grav-ity mod-ell/Gravity model with ad-ja
--cency/connection
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 125--129
+Underfull \hbox (badness 10000) in paragraph at lines 122--128
 
  []
 
@@ -456,14 +444,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--129
 File: switzerland_network1.pdf Graphic file (type pdf)
 
 <use switzerland_network1.pdf>
-Package pdftex.def Info: switzerland_network1.pdf used on input line 134.
+Package pdftex.def Info: switzerland_network1.pdf used on input line 136.
 (pdftex.def)             Requested size: 149.30743pt x 211.28885pt.
- [5]
-Underfull \hbox (badness 10000) in paragraph at lines 155--156
+ [5] [6 <./switzerland_network1.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
  []
 
-[6 <./switzerland_network1.pdf>]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ƒ in font cmr12!
 Missing character: There is no Â in font cmr12!
@@ -480,17 +467,17 @@ Missing character: There is no Ã in font cmr12!
 Missing character: There is no … in font cmr12!
 Missing character: There is no Â in font cmr12!
 Missing character: There is no ’ in font cmr12!
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
- [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 189.
+[7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 189.
 
 (/Users/eliasriederalt/CloudStation/MsssM/Elias-und-Mario/doc/latex/.texpadtmp/
 reportTemplate.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 186.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 186.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 189.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 189.
 Package rerunfilecheck Info: File `reportTemplate.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 186.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 189.
  ) 
 Here is how much of TeX's memory you used:
  6774 strings out of 493117
@@ -499,7 +486,7 @@ Here is how much of TeX's memory you used:
  10119 multiletter control sequences out of 15000+600000
  12279 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,10n,28p,582b,328s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,10n,28p,582b,326s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
@@ -510,7 +497,7 @@ cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local
 /texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/te
 xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
 Output written on /Users/eliasriederalt/CloudStation/MsssM/Elias-und-Mario/doc/
-latex/.texpadtmp/reportTemplate.pdf (7 pages, 155825 bytes).
+latex/.texpadtmp/reportTemplate.pdf (7 pages, 155930 bytes).
 PDF statistics:
  178 PDF objects out of 1000 (max. 8388607)
  154 compressed objects within 2 object streams

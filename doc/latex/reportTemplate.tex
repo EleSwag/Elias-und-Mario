@@ -88,6 +88,8 @@ This project looks at the Swiss train system. It investigates the flow of people
 
 \section{Individual contributions}
 
+\url{}
+
 \section{Introduction and Motivations}
 
 \subsection{Idea and Motivation}
@@ -103,7 +105,7 @@ So the question that draws thru both approaches is how to make a good model of t
 
 
 \section{Description of the Model}
-\subsection{Gravity model}
+\subsection{The Classic Gravity model}
 In  social science -especially in international economics in trade simulations- it is a common and well established approach to simulate flows with a gravity model. The motivation behind it is the physical gravity force. This is defined by $F_G:=G\frac{m_1 m_2}{r^2}$, where G is the gravity constant, $m_i$ is the mass of the  i-Th body for $i=1,2$ and r is the distance between body 1 and body 2.
 
 
@@ -113,14 +115,14 @@ F_{ij}=G\frac{M_i^{\beta_1}M_j^{\beta_2}}{D_{ij}^{\beta_3}}
 \end{align*}
 
 \citetext{\url{http://en.wikipedia.org/wiki/Gravity_model}}
-We transferred this idea to our situation by identifying the mass of a city to its population and used different definitions of distance. We dropped the constant at the beginning since we normalized the resulting flow anyway. As exponents we have chosen $\beta_1=\beta_2=\beta_3=1$ since with no experience this was as suitable as anything else.
-
-
-\subsection{Development of the gravity modell/Gravity model with adjacency/connection matrix }
+We transferred this idea to our situation by identifying the mass of a city to its population and used different definitions of distance. We dropped the constant at the beginning since we normalized the resulting flow anyway. As exponents we have chosen $\beta_1=\beta_2=\beta_3=1$ since with no experience this was as suitable as anything else.\newline
 In our first approach we took the 10  biggest cities in regard of the number of inhabitants plus two additional ones( Olten and Arthgoldau) which are well-known important nodes of the real network.\newline
 \citetext{\url{http://de.wikipedia.org/wiki/Eisenbahnknoten/\#Schweiz}}
 .
 We wondered if they would also become as important  in our gravity model as in the real network.\newline
+
+
+\subsection{The Connectionmatrix Gravity Model}
 
 To make the network more realistic we have looked up all real connections between the cities on the online train schedule (sbb.ch). Our crition was that two nodes are connected if there exists a direct train connection between them. With this idea we didn't end with a fully-connected network which is from our point of view more realistic to simulate the dircet flow between cities.
 
@@ -130,10 +132,11 @@ To make the network more realistic we have looked up all real connections betwee
  \caption{Gravity model 1: Model of the 10 biggest cities plus two additional one. Layout by gephi with respection geographical position.}
 \end{figure}
 
+!!!!!!!!!!Do eventuell no omschriebe wennn mers so wei schtrukturiere ond e teil is next chapter!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 This was the first network we plotted. While looking at the picture it was striking that the network didn't at all cover the hole country. Espacially the south-west part was unattended. So we extended the number of cities to 20 and keept the two addtional ones from the beginning.
 
 
-\subsection{Distance /Extended Gravity model with adjacency/connection matrix }
+\subsection{The Extended Connectionmatrix Gravity Model}
 In the general gravity model we used geographical distance as the distance indicator. But we thought it would also be reasonable to use the time it takes to travel from one city to the other as the distance indicator. The idea was that this also takes in account if there is obstacle like a mountain or a lake between the cities. A disadvantige of it is, that in a way one approximate the network with the existing network. Anyway we scipted that later because it meant a lot of -unnecessary- work.
 
 
