@@ -137,7 +137,12 @@ This was the first network we plotted. While looking at the picture it was strik
 
 
 \subsection{The Extended Connectionmatrix Gravity Model}
-In the general gravity model we used geographical distance as the distance indicator. But we thought it would also be reasonable to use the time it takes to travel from one city to the other as the distance indicator. The idea was that this also takes in account if there is obstacle like a mountain or a lake between the cities. A disadvantige of it is, that in a way one approximate the network with the existing network. Anyway we scipted that later because it meant a lot of -unnecessary- work.
+In the general gravity model we used geographical distance as the distance indicator. But we thought it would also be reasonable to use the time it takes to travel from one city to the other as the distance indicator. The idea was that this also takes in account if there is obstacle like a mountain or a lake between the cities. A disadvantige of it is, that in a way one approximate the network with the existing network. Anyway we scipted that later because with the number of connection raised exponentially. Also the definition of the time would have becomme schwammig?????????????.
+
+\subsection{The (struggeling for????:D) Data approach}
+
+As mentioned at the beging the second way looking at our network was Data. Unfortunatly the search for data turned out to be quiet difficult. We contacted SBB for data, but in a big company like this things are taking very long. When we finally got in contact with the right persons, there was just to less time left to process all and we could not get all the data we would have liked. Especially data about the load of the network and the capacity seems to be very sensitive. But the people from SBB were very kind and gave us what they could. They sent us a link where you public link \citetext{\url{http://gtfs.geops.ch}} were you can download the whole timetable in Gtfs-Format (General Transit Feed Spesification). Sadly we could not involve that, because of the already mentioned time shortness. We also could speak to one of their mangers on the phone(söui das wörkli schribe???????????blablabla). thats how we came to sevarla documents and links (Anhang:index x y z.....). Especially the numbers of people boarding and deboarding for a few big citys made us curious. This is a number we maybe could relate with our gravity modeles (tada!!!  
+
 
 
 \subsection{Investigation of the resulting network(theory of network parameters)}
@@ -172,7 +177,27 @@ We formed the distance information into a adjacency matrix to represent the conn
 
 \section{Simulation Results and Discussion}
 
+\subsection{The power of gravity models: where it starts and where it ends}
+
+To determine how powerfull the gravity model is, you have to be very carefull about your question. It strongly depends of your point of view. If you want to get a impression of the amount oftraffic of the 10 biggest citys in switzerland (ev results korrelation fo), you might get quiet good results. But if you slightly change your point of view and ask yourself in wich cities of switzerland a big amount of traffic occurs, your gravity model might not be overall correct. Best example is Olten. Small number of inhabitants big amount of traffic. Even one of the seat critical trains (train were you might have to stand) (quelllle), departs from olten
+
+The other, pretty obvious weakness of the gravity model are time variable flows. Of course you cant. We learned that taht this a quiet important aspect  if you want to find out something about capcity of this network. The fastest growing traffic flows in the network are the peaks in the roushour. (Geschäftsberich s 07)
+
+
+
+\subsection{resilience}
+ Resilience breaks down to a combinatoric problem. Some trivial solutions (Lugano)
+ 
+ sbb ashured us they have replacement train at important nodes:D
+
+....
+
+
+
 \section{Summary and Outlook}
+
+Outlook:
+We found out quiet interesting things about the swiss train network. Of course it would have been nice if we could have found more answers but we found some interesting trails who would be worth investigating further
 
 \section{References}
 
