@@ -46,7 +46,7 @@
 \end{minipage}
 &
 \begin{minipage}{6cm}
-\vspace{2mm} \large Name 1
+\vspace{2mm} \large Mario Vontobel
 
  \vspace{\baselineskip}
 
@@ -54,7 +54,7 @@
 &
 \begin{minipage}{6cm}
 
-\large Name 2
+\large Elias Rieder
 
 \end{minipage}
 \end{tabular}
@@ -83,7 +83,8 @@
 
 \section{Abstract}
 
-lool at
+This project looks at the Swiss train system. It investigates the flow of people in this transport system wich is quiet importanrt for this country. The goal was to find relations between properties like capacity amount of people traveling delayfragility and more. On one hand this is approached  by a general teorethical model. On the other hand by real data. These two methods lead to a model of the Swiss train  network. On the basis of this model the properties are analyzed. The Two approaches merge at end and alow us two make some staments:D?????????????
+ 
 
 \section{Individual contributions}
 
@@ -115,7 +116,7 @@ F_{ij}=G\frac{M_i^{\beta_1}M_j^{\beta_2}}{D_{ij}^{\beta_3}}
 We transferred this idea to our situation by identifying the mass of a city to its population and used different definitions of distance. We dropped the constant at the beginning since we normalized the resulting flow anyway. As exponents we have chosen $\beta_1=\beta_2=\beta_3=1$ since with no experience this was as suitable as anything else.
 
 
-\subsection{Development of the gravity modell}
+\subsection{Development of the gravity modell/Gravity model with adjacency/connection matrix }
 In our first approach we took the 10  biggest cities in regard of the number of inhabitants plus two additional ones( Olten and Arthgoldau) which are well-known important nodes of the real network.\newline
 \citetext{\url{http://de.wikipedia.org/wiki/Eisenbahnknoten/\#Schweiz}}
 .
@@ -132,7 +133,7 @@ To make the network more realistic we have looked up all real connections betwee
 This was the first network we plotted. While looking at the picture it was striking that the network didn't at all cover the hole country. Espacially the south-west part was unattended. So we extended the number of cities to 20 and keept the two addtional ones from the beginning.
 
 
-\subsection{Distance}
+\subsection{Distance /Extended Gravity model with adjacency/connection matrix }
 In the general gravity model we used geographical distance as the distance indicator. But we thought it would also be reasonable to use the time it takes to travel from one city to the other as the distance indicator. The idea was that this also takes in account if there is obstacle like a mountain or a lake between the cities. A disadvantige of it is, that in a way one approximate the network with the existing network. Anyway we scipted that later because it meant a lot of -unnecessary- work.
 
 
