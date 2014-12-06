@@ -1,0 +1,19 @@
+\BOOKMARK [1][-]{section.1}{Abstract}{}% 1
+\BOOKMARK [1][-]{section.2}{Individual contributions}{}% 2
+\BOOKMARK [1][-]{section.3}{Introduction and Motivations}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Idea and Motivation}{section.3}% 4
+\BOOKMARK [1][-]{section.4}{Description of the Model}{}% 5
+\BOOKMARK [2][-]{subsection.4.1}{The Classic Gravity model}{section.4}% 6
+\BOOKMARK [2][-]{subsection.4.2}{The Connectionmatrix Gravity Model}{section.4}% 7
+\BOOKMARK [2][-]{subsection.4.3}{The Extended Connectionmatrix Gravity Model}{section.4}% 8
+\BOOKMARK [2][-]{subsection.4.4}{The \(struggeling for????:D\) Data approach}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.5}{Investigation of the resulting network\(theory of network parameters\)}{section.4}% 10
+\BOOKMARK [1][-]{section.5}{Implementation}{}% 11
+\BOOKMARK [2][-]{subsection.5.1}{Networkflow-function}{section.5}% 12
+\BOOKMARK [2][-]{subsection.5.2}{Visualization}{section.5}% 13
+\BOOKMARK [2][-]{subsection.5.3}{Investigation-function}{section.5}% 14
+\BOOKMARK [1][-]{section.6}{Simulation Results and Discussion}{}% 15
+\BOOKMARK [2][-]{subsection.6.1}{The power of gravity models: where it starts and where it ends}{section.6}% 16
+\BOOKMARK [2][-]{subsection.6.2}{resilience}{section.6}% 17
+\BOOKMARK [1][-]{section.7}{Summary and Outlook}{}% 18
+\BOOKMARK [1][-]{section.8}{References}{}% 19
