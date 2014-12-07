@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.22)  7 DEC 2014 00:47
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.22)  7 DEC 2014 01:36
 entering extended mode
 **reportTemplate.tex
 
@@ -386,6 +386,11 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 17.
 LaTeX Info: Redefining \pageref on input line 17.
 LaTeX Info: Redefining \nameref on input line 17.
+
+(C:\Users\Vontobel\Desktop\Gessfach\GitHub\Elias-und-Mario\doc\latex\reportTemp
+late.out)
+(C:\Users\Vontobel\Desktop\Gessfach\GitHub\Elias-und-Mario\doc\latex\reportTemp
+late.out)
 \@outlinefile=\write3
 
 (C:\Users\Vontobel\Desktop\Gessfach\GitHub\Elias-und-Mario\doc\latex\cover.tex
@@ -400,7 +405,7 @@ f ETHlogo.eps>
 (epstopdf)             \includegraphics on input line 5.
 Package epstopdf Info: Output file is already uptodate.
 
-<ETHlogo-eps-converted-to.pdf, id=3, 179.67125pt x 45.16875pt>
+<ETHlogo-eps-converted-to.pdf, id=75, 179.67125pt x 45.16875pt>
 File: ETHlogo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ETHlogo-eps-converted-to.pdf>
@@ -425,23 +430,27 @@ Overfull \hbox (5.3226pt too wide) in paragraph at lines 43--61
  []
 
 [2]
-
-Package hyperref Warning: old toc file detected, not used; run LaTeX again.
-
+(C:\Users\Vontobel\Desktop\Gessfach\GitHub\Elias-und-Mario\doc\latex\reportTemp
+late.toc)
 \tf@toc=\write4
-[3]
+ [3]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¼ in font cmr12!
  [4]
-Underfull \hbox (badness 10000) in paragraph at lines 122--128
+Underfull \hbox (badness 10000) in paragraph at lines 122--124
 
  []
 
-<switzerland_network1.pdf, id=36, 597.23125pt x 845.1575pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--130
+
+ []
+
+<switzerland_network1.pdf, id=122, 597.23125pt x 845.1575pt>
 File: switzerland_network1.pdf Graphic file (type pdf)
 
 <use switzerland_network1.pdf>
-Package pdftex.def Info: switzerland_network1.pdf used on input line 136.
+Package pdftex.def Info: switzerland_network1.pdf used on input line 135.
 (pdftex.def)             Requested size: 149.30743pt x 211.28885pt.
  [5]
 Missing character: There is no Ã in font cmr12!
@@ -450,56 +459,40 @@ Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¶ in font cmr12!
  [6 <C:/Users/Vontobel/Desktop/Gessfach/GitHub/Elias-und-Mario/doc/latex/switze
 rland_network1.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
-[7]
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ƒ in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ƒ in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no … in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ’ in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ƒ in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ƒ in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no … in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ’ in font cmr12!
+[7] <switzerland_network2.jpg, id=149, 563.10374pt x 421.575pt>
+File: switzerland_network2.jpg Graphic file (type jpg)
+
+<use switzerland_network2.jpg>
+Package pdftex.def Info: switzerland_network2.jpg used on input line 169.
+(pdftex.def)             Requested size: 281.55118pt x 210.78697pt.
+ [8 <C:/Users/Vontobel/Desktop/Gessfach/GitHub/Elias-und-Mario/doc/latex/switze
+rland_network2.jpg>]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¤ in font cmr12!
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 214.
- [8] [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 214.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 220.
+ [9]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 220.
 
 (C:\Users\Vontobel\Desktop\Gessfach\GitHub\Elias-und-Mario\doc\latex\reportTemp
 late.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 214.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 214.
-
-
-Package rerunfilecheck Warning: File `reportTemplate.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `reportTemplate.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  C5E92365C009C0FA513EEA8D03BF09FE;1369.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 214.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 220.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 220.
+Package rerunfilecheck Info: File `reportTemplate.out' has not changed.
+(rerunfilecheck)             Checksum: 4514E93F5B5B6FE749823996B086DD95;1254.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 220.
  ) 
 Here is how much of TeX's memory you used:
- 6754 strings out of 493921
- 97092 string characters out of 3147273
- 185901 words of memory out of 3000000
- 9931 multiletter control sequences out of 15000+200000
+ 6785 strings out of 493921
+ 97995 string characters out of 3147273
+ 186005 words of memory out of 3000000
+ 9954 multiletter control sequences out of 15000+200000
  12279 words of font info for 48 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 42i,10n,28p,1190b,328s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,10n,28p,1195b,328s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTe
@@ -509,9 +502,9 @@ public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb
 >
-Output written on reportTemplate.pdf (9 pages, 169966 bytes).
+Output written on reportTemplate.pdf (9 pages, 206980 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
+ 197 PDF objects out of 1000 (max. 8388607)
  32 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 160 words of extra memory for PDF output out of 10000 (max. 10000000)
 

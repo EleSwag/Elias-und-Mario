@@ -1,4 +1,4 @@
-% combination of map1 and map2
+% combination of map1 and map2->picture in the documentation
 
 % Call and generat data
     data1;
@@ -9,15 +9,14 @@
 
 
 % First generat points
-    % Problem with labeling... tried to solve it by using colors...it's not
-    % that bad but still not so good visable...
 
 for i=1:size(cities{2},1)
-plot(cities{2}(i,1),cities{2}(i,2),'*','Color',[1-i/22 0 i/22]);
+plot(cities{2}(i,1),cities{2}(i,2),'*');
 hold on
 end
-legend(cities{1},'Location','BestOutSide');
-title('City map of switzerland');
+title('City map of switzerland','Fontsize',20);
+xlabel('X-coordinate')
+ylabel('Y-coordinate')
 
 % Plot Connections
 

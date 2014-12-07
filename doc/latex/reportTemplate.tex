@@ -83,7 +83,7 @@
 
 \section{Abstract}
 
-This project looks at the Swiss train system. It investigates the flow of people in this transport system wich is quiet importanrt for this country. The goal was to find relations between properties like capacity amount of people traveling delayfragility and more. On one hand this is approached  by a general teorethical model. On the other hand by real data. These two methods lead to a model of the Swiss train  network. On the basis of this model the properties are analyzed. The Two approaches merge at end and alow us two make some staments:D?????????????
+This project looks at the Swiss train system. It investigates the flow of people in this transport system which is quiet important for this country. The goal was to find relations between properties like capacity amount of people travelling delay fragility and more. On one hand this is approached  by a general theoretical model. On the other hand by real data. These two methods lead to a model of the Swiss train  network. On the basis of this model the properties are analysed. The Two approaches merge at end and allow us two make some statements:D?????????????
  
 
 \section{Individual contributions}
@@ -100,17 +100,17 @@ So the general idea was to model the Swiss train network and then look at its pr
 
 So we had two approaches to start with: The Gravity model, witch we will be explained in detail after, and the effort getting real data.
 
-Because our interest in the problem came from observations in our everyday life, it was very important to us that our work would have a strong connection to reality. To make this hapen, we wrote to a mail to SBB, the Swiss rail company, and asked them for real Data. Since we didnt know if we would get the data we ha two make two plans.
+Because our interest in the problem came from observations in our everyday life, it was very important to us that our work would have a strong connection to reality. To make this happen, we wrote to a mail to SBB, the Swiss rail company, and asked them for real Data. Since we did not know if we would get the data we ha two make two plans.
 
-The first possiility would have been getting a rich data set from sbb. There coplex models considering the the freaquency, speed and capacity of the trains and the resulting connections would be possible. In this case the question of capacity and load, and resilience were very interesting questions.
+The first possibility would have been getting a rich data set from sbb. There complex models considering the the frequency, speed and capacity of the trains and the resulting connections would be possible. In this case the question of capacity and load, and resilience were very interesting questions.
 
-The second, alternative possibility was getting nothing. But with the gravity model we could be shure to have an angle even  without data. This was kind of a backup plan. Of course the the questions would have to be asked way more general  
+The second, alternative possibility was getting nothing. But with the gravity model we could be sure to have an angle even  without data. This was kind of a backup plan. Of course the the questions would have to be asked way more general  
 
-So the question that draws thru both approaches is how to make a good model of the Swiss train system and what statements can we make with it about the traffic flow, the capcity and the resilience of it.     
+So the question that draws through both approaches is how to make a good model of the Swiss train system and what statements can we make with it about the traffic flow, the capacity and the resilience of it.     
 
 
 \section{Description of the Model}
-\subsection{The Classic Gravity model}
+\subsection{The classical gravity model}
 In  social science -especially in international economics in trade simulations- it is a common and well established approach to simulate flows with a gravity model. The motivation behind it is the physical gravity force. This is defined by $F_G:=G\frac{m_1 m_2}{r^2}$, where G is the gravity constant, $m_i$ is the mass of the  i-Th body for $i=1,2$ and r is the distance between body 1 and body 2.
 
 
@@ -121,61 +121,59 @@ F_{ij}=G\frac{M_i^{\beta_1}M_j^{\beta_2}}{D_{ij}^{\beta_3}}
 
 \citetext{\url{http://en.wikipedia.org/wiki/Gravity_model}}
 We transferred this idea to our situation by identifying the mass of a city to its population and used different definitions of distance. We dropped the constant at the beginning since we normalized the resulting flow anyway. As exponents we have chosen $\beta_1=\beta_2=\beta_3=1$ since with no experience this was as suitable as anything else.\newline
+
+\subsection{The development of the gravity model}
 In our first approach we took the 10  biggest cities in regard of the number of inhabitants plus two additional ones( Olten and Arthgoldau) which are well-known important nodes of the real network.\newline
 \citetext{\url{http://de.wikipedia.org/wiki/Eisenbahnknoten/\#Schweiz}}
 .
 We wondered if they would also become as important  in our gravity model as in the real network.\newline
 
-
-\subsection{The Connectionmatrix Gravity Model}
-
-To make the network more realistic we have looked up all real connections between the cities on the online train schedule (sbb.ch). Our crition was that two nodes are connected if there exists a direct train connection between them. With this idea we didn't end with a fully-connected network which is from our point of view more realistic to simulate the dircet flow between cities.
+To make the network more realistic we have looked up all real connections between the cities on the online train schedule (sbb.ch). Our criterion was that two nodes are connected if there exists a direct train connection between them. With this idea we didn't end with a fully-connected network which is from our point of view more realistic to simulate the direct flow between cities.
 
 \begin{figure}
 \centering
 \includegraphics[scale=0.25]{switzerland_network1}
- \caption{Gravity model 1: Model of the 10 biggest cities plus two additional one. Layout by gephi with respection geographical position.}
+ \caption{Gravity model 1: Model of the 10 biggest cities plus two additional one. Layout by gephi with respecting geographical position.}
 \end{figure}
 
-!!!!!!!!!!Do eventuell no omschriebe wennn mers so wei schtrukturiere ond e teil is next chapter!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-This was the first network we plotted. While looking at the picture it was striking that the network didn't at all cover the hole country. Espacially the south-west part was unattended. So we extended the number of cities to 20 and keept the two addtional ones from the beginning.
+This was the first network we plotted. While looking at the picture it was striking that the network didn't at all cover the hole country. Especially the south-west part was unattended. So we extended the number of cities to 20 and kept the two additional ones from the beginning.
 
 
-\subsection{The Extended Connectionmatrix Gravity Model}
-In the general gravity model we used geographical distance as the distance indicator. But we thought it would also be reasonable to use the time it takes to travel from one city to the other as the distance indicator. The idea was that this also takes in account if there is obstacle like a mountain or a lake between the cities. A disadvantige of it is, that in a way one approximate the network with the existing network. Anyway we scipted that later because with the number of connection raised exponentially. Also the definition of the time would have becomme schwammig?????????????.
+\subsection{Commend on the distance in the gravity model}
+In the general gravity model we used geographical distance as the distance indicator. But we thought it would also be reasonable to use the time it takes to travel from one city to the other as the distance indicator. The idea was that this also takes in account if there is obstacle like a mountain or a lake between the cities. A disadvantage of it is, that in a way one approximate the network with the existing network. Anyway we omitted that later because with the number of connection the investment grow nearly immeasurable. Also the time connection was not well-defined any more. In the sense that there were different times for the same connection.
 
 \subsection{The (struggeling for????:D) Data approach}
 
-As mentioned at the beging the second way looking at our network was Data. Unfortunatly the search for data turned out to be quiet difficult. We contacted SBB for data, but in a big company like this things are taking very long. When we finally got in contact with the right persons, there was just to less time left to process all and we could not get all the data we would have liked. Especially data about the load of the network and the capacity seems to be very sensitive. But the people from SBB were very kind and gave us what they could. They sent us a link where you public link \citetext{\url{http://gtfs.geops.ch}} were you can download the whole timetable in Gtfs-Format (General Transit Feed Spesification). Sadly we could not involve that, because of the already mentioned time shortness. We also could speak to one of their mangers on the phone(söui das wörkli schribe???????????blablabla). thats how we came to sevarla documents and links (Anhang:index x y z.....). Especially the numbers of people boarding and deboarding for a few big citys made us curious. This is a number we maybe could relate with our gravity modeles (tada!!!  
-
-
-
-\subsection{Investigation of the resulting network(theory of network parameters)}
-
+As mentioned at the beginning the second way looking at our network was Data. Unfortunately the search for data turned out to be quiet difficult. We contacted SBB for data, but in a big company like this things are taking very long. When we finally got in contact with the right persons, there was just to less time left to process all and we could not get all the data we would have liked. Especially data about the load of the network and the capacity seems to be very sensitive. But the people from SBB were very kind and gave us what they could. They sent us a link where you public link \citetext{\url{http://gtfs.geops.ch}} were you can download the whole timetable in Gtfs-Format (General Transit Feed Spesification). Sadly we could not involve that, because of the already mentioned time shortness. We also could speak to one of their mangers on the phone(söui das wörkli schribe???????????blablabla). thats how we came to several documents and links (Anhang:index x y z.....). Especially the numbers of people boarding and de-boarding for a few big cities made us curious. This is a number we maybe could relate with our gravity models (tada!!!  
 
 
 \section{Implementation}
-\textbf{In general we tried to be as specific as possible with the commentation of the funcitons in matlab}
+\textbf{In general we tried to be as specific as possible with the annotation of the functions in matlab}
 
 We created a script called data1 which contains all our relevant data.
 
-\subsection{Networkflow-function}
-First we implemented a general network function which applys the theory mentioned in the description of the model to an adjacency matrix of a network. This function gave another adjacency matrix back with the simulate flow. This function would also run for every other gravity model based simulation.\newline
+\subsection{Network flow-function}
+First we implemented a general network function which apply the theory mentioned in the description of the model to an adjacency matrix of a network. This function gave another adjacency matrix back with the simulate flow. This function would also run for every other gravity model based simulation.\newline
 
-For the distance based gravity function we also need the geographical distance. For that purpose we added to each city its coordinates and computed the distance between each city by just applying phythagors. Since Switzerland is a small country we did not taken in account that the earth is a spehre and just approximatied as if it was a plane. The function gives again a adicency matrix back.
+For the distance based gravity function we also need the geographical distance. For that purpose we added to each city its coordinates and computed the distance between each city by just applying Pythagoras. Since Switzerland is a small country we did not taken in account that the earth is a sphere and just approximated as if it was a plane. The function gives again a adjacency matrix back.
 
 
 \subsection{Visualization}
-In the lectures it was recommended to use gephi. So some of our pictures are made with it. But a huge disadvantige of gephi is that it is rather complicated to respect geographical position if one uses an adiacency  matrix to represend the network. In figure 1 we placed the cities by hand.
+In the lectures it was recommended to use gephi. So some of our pictures are made with it. But a huge disadvantage of gephi is that it is rather complicated to respect geographical position if one uses an adjacency  matrix to represent the network. In figure 1 we placed the cities by hand.
 
-But since this is rather complicated we also wrote funciton in matlab to illustrate a network given in a adjacency matrix. The result isn't as pretty as in gephi so both methodes have their advantages and disadvantages.
+But since this is rather complicated we also wrote function in matlab to illustrate a network given in a adjacency matrix. The result isn't as pretty as in gephi so both methods have their advantages and disadvantages.
+
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{switzerland_network2}
+ \caption{Gravity model 2: Model of the 20 biggest cities plus two additional one. Layout by matlab. The strength of a connection is emphasized by the thickness as well as the depth of the colour from the line.}
+\end{figure}
 
 \subsection{Investigation-function}
-
-
-
-
-We formed the distance information into a adjacency matrix to represent the connections between the cities.  We characterised a connection to be only direct. For example if a train goes from ZÃÅrich to Lausanne and stops in Bern, it will be counted as 2 connections (ZÃÅrich-Bern, Bern-Lausanne). The entry in the matrix of a connection is the time .... muesi do so triviale shit schribe???????????
+To investigate the network we strongly relaid on the paper 'Complexity in human transportation networks: a comparative analysis of worldwide air transportation and global cargo-ship movements'.
+We implemented the shortest distance function described on page 592/593. At the beginning we had a hard time to find the right function but then Mario remembered that he had in the fall semester 2013 a lecture on algorithm and complexity. Mostly the lecture was about theory from trees (special case of a graph) but there was also a part on general graph theory. In that part was the 'Floyd-Warshall'-algorithm which does exactly what we needed. Which means shortest paths between all nodes.
+The notes also allowed as to implement a function which checks if a network is still connected by using a 'depth-first-search'-algorithm.
 
 
 
@@ -184,25 +182,33 @@ We formed the distance information into a adjacency matrix to represent the conn
 
 \subsection{The power of gravity models: where it starts and where it ends}
 
-To determine how powerfull the gravity model is, you have to be very carefull about your question. It strongly depends of your point of view. If you want to get a impression of the amount oftraffic of the 10 biggest citys in switzerland (ev results korrelation fo), you might get quiet good results. But if you slightly change your point of view and ask yourself in wich cities of switzerland a big amount of traffic occurs, your gravity model might not be overall correct. Best example is Olten. Small number of inhabitants big amount of traffic. Even one of the seat critical trains (train were you might have to stand) (quelllle), departs from olten
+To determine how powerful the gravity model is, you have to be very careful about your question. It strongly depends of your point of view. If you want to get a impression of the amount of traffic of the 10 biggest cities in Switzerland (ev results korrelation fo), you might get quiet good results. But if you slightly change your point of view and ask yourself in which cities of Switzerland a big amount of traffic occurs, your gravity model might not be overall correct. Best example is Olten. Small number of inhabitants big amount of traffic. Even one of the seat critical trains (train were you might have to stand) (quelllle), departs from olten
 
-The other, pretty obvious weakness of the gravity model are time variable flows. Of course you cant. We learned that taht this a quiet important aspect  if you want to find out something about capcity of this network. The fastest growing traffic flows in the network are the peaks in the roushour. (Geschäftsberich s 07)
+The other, pretty obvious weakness of the gravity model are time variable flows. Of course you cant. We learned that taht this a quiet important aspect  if you want to find out something about capacity of this network. The fastest growing traffic flows in the network are the peaks in the rush-hour. (Geschäftsberich s 07)
 
 
 
 \subsection{resilience}
  Resilience breaks down to a combinatoric problem. Some trivial solutions (Lugano)
  
- sbb ashured us they have replacement train at important nodes:D
+ sbb assured us they have replacement train at important nodes:D
 
 ....
+
+
+\
+
+
+
+
+
 
 
 
 \section{Summary and Outlook}
 
 Outlook:
-We found out quiet interesting things about the swiss train network. Of course it would have been nice if we could have found more answers but we found some interesting trails who would be worth investigating further
+We found out quiet interesting things about the Swiss train network. Of course it would have been nice if we could have found more answers but we found some interesting trails who would be worth investigating further
 
 \section{References}
 
