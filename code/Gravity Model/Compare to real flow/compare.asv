@@ -18,12 +18,4 @@ values2=(boarding+deboarding)./Flux2;
 
 % make graphics
 bar(values1);
-xlabel('Cities');
-ylabel('relativ factor');
-title('Comparison with real data and Network 1','Fontsize',14);
-
-figure
-bar(values2);
-xlabel('Cities');
-ylabel('relativ factor');
-title('Comparison with real data and Network 2','Fontsize',14);
+x
