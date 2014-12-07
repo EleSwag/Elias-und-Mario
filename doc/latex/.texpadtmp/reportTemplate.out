@@ -12,9 +12,9 @@
 \BOOKMARK [2][-]{subsection.5.2}{Visualization}{section.5}% 12
 \BOOKMARK [2][-]{subsection.5.3}{Investigation-function}{section.5}% 13
 \BOOKMARK [1][-]{section.6}{Simulation Results and Discussion}{}% 14
-\BOOKMARK [2][-]{subsection.6.1}{The power of gravity models: where it starts and where it ends}{section.6}% 15
-\BOOKMARK [2][-]{subsection.6.2}{resilience}{section.6}% 16
-\BOOKMARK [2][-]{subsection.6.3}{Table with characteristics}{section.6}% 17
-\BOOKMARK [2][-]{subsection.6.4}{Comparison of our flow with the real flow from some nodes}{section.6}% 18
+\BOOKMARK [2][-]{subsection.6.1}{General Network Parameters}{section.6}% 15
+\BOOKMARK [2][-]{subsection.6.2}{Networkflow}{section.6}% 16
+\BOOKMARK [3][-]{subsubsection.6.2.1}{Comparison of our flow with the real flow from some nodes}{subsection.6.2}% 17
+\BOOKMARK [2][-]{subsection.6.3}{Resilience}{section.6}% 18
 \BOOKMARK [1][-]{section.7}{Summary and Outlook}{}% 19
 \BOOKMARK [1][-]{section.8}{References}{}% 20

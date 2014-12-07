@@ -107,7 +107,8 @@ The first possibility would have been getting a rich data set from sbb. There co
 
 The second, alternative possibility was getting nothing. But with the gravity model we could be sure to have an angle even  without data. This was kind of a backup plan. Of course the the questions would have to be asked way more general  
 
-So the question that draws through both approaches is how to make a good model of the Swiss train system and what statements can we make with it about the traffic flow, the capacity and the resilience of it.     
+So the question that draws through both approaches is:\newline 
+\textbf{How do you make a good model of the Swiss train system and what statements can we make with it about the traffic flow, the capacity and the resilience of it?}    
 
 
 \section{Description of the Model}
@@ -181,22 +182,7 @@ The notes also allowed as to implement a function which checks if a network is s
 
 \section{Simulation Results and Discussion}
 
-\subsection{The power of gravity models: where it starts and where it ends}
-
-To determine how powerful the gravity model is, you have to be very careful about your question. It strongly depends of your point of view. If you want to get a impression of the amount of traffic of the 10 biggest cities in Switzerland (ev results korrelation fo), you might get quiet good results. But if you slightly change your point of view and ask yourself in which cities of Switzerland a big amount of traffic occurs, your gravity model might not be overall correct. Best example is Olten. Small number of inhabitants big amount of traffic. Even one of the seat critical trains (train were you might have to stand) (quelllle), departs from olten
-
-The other, pretty obvious weakness of the gravity model are time variable flows. Of course you cant. We learned that taht this a quiet important aspect  if you want to find out something about capacity of this network. The fastest growing traffic flows in the network are the peaks in the rush-hour. (Geschäftsberich s 07)
-
-
-
-\subsection{resilience}
- Resilience breaks down to a combinatoric problem. Some trivial solutions (Lugano)
- 
- sbb assured us they have replacement train at important nodes:D
-
-....
-
-\subsection{Table with characteristics}
+\subsection{General Network Parameters}
 \begin{tabular}{c|c|c|c|c|c|c|c|c|c|}
  & N & L & $\sigma$ & $\phi$ & $d_T$ & $\langle r\rangle$ & 
  $\langle w\rangle$ & $\langle F\rangle$&$\langle k\rangle$ \\\hline
@@ -204,7 +190,16 @@ The other, pretty obvious weakness of the gravity model are time variable flows.
  
  Other & 22 & 34 &    0.1405&2.9134& 11.0154&$2.6028e+07$&0.1037&0.3215& 3.1364\\\hline
 \end{tabular}
-\subsection{Comparison of our flow with the real flow from some nodes}
+
+
+\subsection{Networkflow}
+
+The power of gravity models: where it starts and where it ends
+To determine how powerful the gravity model is, you have to be very careful about your question. It strongly depends of your point of view. If you want to get a impression of the amount of traffic of the 10 biggest cities in Switzerland (ev results korrelation fo), you might get quiet good results. But if you slightly change your point of view and ask yourself in which cities of Switzerland a big amount of traffic occurs, your gravity model might not be overall correct. Best example is Olten. Small number of inhabitants big amount of traffic. Even one of the seat critical trains (train were you might have to stand) (quelllle), departs from olten
+
+The other, pretty obvious weakness of the gravity model are time variable flows. Of course you cant. We learned that taht this a quiet important aspect  if you want to find out something about capacity of this network. The fastest growing traffic flows in the network are the peaks in the rush-hour. (Geschäftsberich s 07)
+
+\subsubsection{Comparison of our flow with the real flow from some nodes}
 fullconnected network:$\begin{bmatrix}
     1.4788\\
     0.4861\\
@@ -254,6 +249,15 @@ connected network:$\begin{bmatrix}
          0
 
 \end{bmatrix}$
+
+
+\subsection{Resilience}
+ Resilience breaks down to a combinatoric problem. Some trivial solutions (Lugano)
+ 
+ sbb assured us they have replacement train at important nodes:D
+
+....
+
 
 
 
