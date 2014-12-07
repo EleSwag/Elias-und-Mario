@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.6.24)  7 DEC 2014 17:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.6.24)  7 DEC 2014 20:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -462,12 +462,7 @@ File: switzerland_network1.pdf Graphic file (type pdf)
 <use switzerland_network1.pdf>
 Package pdftex.def Info: switzerland_network1.pdf used on input line 137.
 (pdftex.def)             Requested size: 149.30743pt x 211.28885pt.
- [5]
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¶ in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¶ in font cmr12!
- [6 <./switzerland_network1.pdf>]
+ [5] [6 <./switzerland_network1.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
  []
@@ -490,13 +485,13 @@ Missing character: There is no ¤ in font cmr12!
 <compare1.png, id=172, 422.32782pt x 316.18124pt>
 File: compare1.png Graphic file (type png)
  <use compare1.png>
-Package pdftex.def Info: compare1.png used on input line 254.
+Package pdftex.def Info: compare1.png used on input line 253.
 (pdftex.def)             Requested size: 211.16339pt x 158.09023pt.
  [9]
 <compare2.png, id=178, 422.32782pt x 295.1025pt>
 File: compare2.png Graphic file (type png)
  <use compare2.png>
-Package pdftex.def Info: compare2.png used on input line 259.
+Package pdftex.def Info: compare2.png used on input line 258.
 (pdftex.def)             Requested size: 211.16339pt x 147.55087pt.
  [10 <./compare1.png (PNG copy)>]
 (/Users/eliasriederalt/CloudStation/MsssM/Elias-und-Mario/doc/latex/.texpadtmp/
@@ -504,17 +499,17 @@ reportTemplate.bbl)
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 291.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 290.
 [11 <./compare2.png (PNG copy)>] [12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 291.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 290.
 
 (/Users/eliasriederalt/CloudStation/MsssM/Elias-und-Mario/doc/latex/.texpadtmp/
 reportTemplate.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 291.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 291.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 290.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 290.
 Package rerunfilecheck Info: File `reportTemplate.out' has not changed.
 (rerunfilecheck)             Checksum: 4117AFDEC750B1D65D56B07DE9D4EF4D;1436.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 291.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 290.
  ) 
 Here is how much of TeX's memory you used:
  6813 strings out of 493117
@@ -523,7 +518,7 @@ Here is how much of TeX's memory you used:
  10138 multiletter control sequences out of 15000+600000
  12587 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,10n,28p,1210b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,10n,28p,1105b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -537,7 +532,7 @@ exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texl
 ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
 ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
 Output written on /Users/eliasriederalt/CloudStation/MsssM/Elias-und-Mario/doc/
-latex/.texpadtmp/reportTemplate.pdf (12 pages, 230796 bytes).
+latex/.texpadtmp/reportTemplate.pdf (12 pages, 230230 bytes).
 PDF statistics:
  247 PDF objects out of 1000 (max. 8388607)
  211 compressed objects within 3 object streams
