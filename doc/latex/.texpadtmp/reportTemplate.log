@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.6.24)  10 DEC 2014 16:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.6.24)  10 DEC 2014 17:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -403,7 +403,7 @@ df ETHlogo.eps>
 (epstopdf)             \includegraphics on input line 5.
 Package epstopdf Info: Output file is already uptodate.
 
-<ETHlogo-eps-converted-to.pdf, id=92, 179.67125pt x 45.16875pt>
+<ETHlogo-eps-converted-to.pdf, id=88, 179.67125pt x 45.16875pt>
 File: ETHlogo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ETHlogo-eps-converted-to.pdf>
@@ -454,7 +454,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 130--134
 
  []
 
-[5] <switzerland_network1.pdf, id=152, 597.23125pt x 845.1575pt>
+[5] <switzerland_network1.pdf, id=147, 597.23125pt x 845.1575pt>
 File: switzerland_network1.pdf Graphic file (type pdf)
 
 <use switzerland_network1.pdf>
@@ -465,7 +465,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 160--161
 
  []
 
-[7] <switzerland_network2.jpg, id=171, 563.10374pt x 421.575pt>
+[7] <switzerland_network2.jpg, id=166, 563.10374pt x 421.575pt>
 File: switzerland_network2.jpg Graphic file (type jpg)
 
 <use switzerland_network2.jpg>
@@ -478,111 +478,137 @@ Overfull \hbox (59.95958pt too wide) in paragraph at lines 188--195
 
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¤ in font cmr12!
-[9] <compare1.png, id=182, 422.32782pt x 316.18124pt>
+<compare1.png, id=172, 422.32782pt x 316.18124pt>
 File: compare1.png Graphic file (type png)
  <use compare1.png>
-Package pdftex.def Info: compare1.png used on input line 259.
+Package pdftex.def Info: compare1.png used on input line 257.
 (pdftex.def)             Requested size: 211.16339pt x 158.09023pt.
-File: compare1.png Graphic file (type png)
+ [9]
+<compare2.png, id=178, 422.32782pt x 295.1025pt>
+File: compare2.png Graphic file (type png)
+ <use compare2.png>
+Package pdftex.def Info: compare2.png used on input line 262.
+(pdftex.def)             Requested size: 211.16339pt x 147.55087pt.
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¼ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+ [10 <./compare1.png (PNG copy)>]
+Overfull \hbox (4.2642pt too wide) in paragraph at lines 272--273
+[]\OT1/cmr/m/n/12 Resilience breaks down to a com-bi-na-toric prob-lem. Some tr
+iv-ial so-lu-tions (Lugano) 
+ []
 
-<use compare1.png>
-Package pdftex.def Info: compare1.png used on input line 264.
-(pdftex.def)             Requested size: 211.16339pt x 158.09023pt.
-
-<fullConnedtedShortestNetworkDistanceChange.png, id=183, 562.1pt x 421.575pt>
+<fullConnedtedShortestNetworkDistanceChange.png, id=186, 562.1pt x 421.575pt>
 File: fullConnedtedShortestNetworkDistanceChange.png Graphic file (type png)
 
 <use fullConnedtedShortestNetworkDistanceChange.png>
 Package pdftex.def Info: fullConnedtedShortestNetworkDistanceChange.png used on
- input line 271.
+ input line 277.
 (pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
- [10 <./compare1.png (PNG copy)>] <connectedNetworkDistanceChange.png, id=191, 
-562.1pt x 421.575pt>
+
+<connectedNetworkDistanceChange.png, id=187, 562.1pt x 421.575pt>
 File: connectedNetworkDistanceChange.png Graphic file (type png)
 
 <use connectedNetworkDistanceChange.png>
 Package pdftex.def Info: connectedNetworkDistanceChange.png used on input line 
-276.
+282.
 (pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
- [11] [12 <./fullConnedtedShortestNetworkDistanceChange.png (PNG copy)> <./conn
-ectedNetworkDistanceChange.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 300--301
+ [11 <./compare2.png (PNG copy)>]
+[12 <./fullConnedtedShortestNetworkDistanceChange.png (PNG copy)> <./connectedN
+etworkDistanceChange.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
 
  []
 
 Missing character: There is no Ã in font cmtt12!
 Missing character: There is no ¤ in font cmtt12!
 
-Overfull \hbox (9.5721pt too wide) in paragraph at lines 311--316
+Overfull \hbox (9.5721pt too wide) in paragraph at lines 309--314
 \OT1/cmr/m/n/12 3. List of Citys[]$\OT1/cmtt/m/n/12 http : / / de . wikipedia .
  org / wiki / Liste _ der _ Stdte _ in _ der _ Schweiz$[] 
  []
 
 
-Overfull \hbox (28.09927pt too wide) in paragraph at lines 311--316
+Overfull \hbox (28.09927pt too wide) in paragraph at lines 309--314
 \OT1/cmr/m/n/12 4. Im-por-tant Train Nodes[]$\OT1/cmtt/m/n/12 http : / / de . w
 ikipedia . org / wiki / Eisenbahnknoten / #Schweiz$[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--316
+Underfull \hbox (badness 10000) in paragraph at lines 309--314
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--319
+Underfull \hbox (badness 10000) in paragraph at lines 315--317
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
 
  []
 
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¼ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--325
+Underfull \hbox (badness 10000) in paragraph at lines 321--330
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 331--332
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 326--329
+Underfull \hbox (badness 10000) in paragraph at lines 333--336
 
  []
 
 
-Overfull \hbox (45.57388pt too wide) in paragraph at lines 330--331
+Overfull \hbox (45.57388pt too wide) in paragraph at lines 337--338
 []\OT1/cmr/m/n/12 14. SBB Konz-ern-lage-bericht 2013 site 7 ab-satz 5??????????
 ?[]$\OT1/cmtt/m/n/12 http : / / geschaeftsbericht .
  []
 
 
-Overfull \hbox (14.5956pt too wide) in paragraph at lines 330--331
+Overfull \hbox (14.5956pt too wide) in paragraph at lines 337--338
 \OT1/cmtt/m/n/12 sbb . ch / fileadmin / user _ upload / Downloads / SBB _ Konze
 rnlagebericht _ GBNB _ 2013 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--331
+Underfull \hbox (badness 10000) in paragraph at lines 337--338
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 337.
-[13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 337.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 344.
+[14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 344.
 
 (/Users/eliasriederalt/CloudStation/MsssM/Elias-und-Mario/doc/latex/.texpadtmp/
 reportTemplate.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 337.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 337.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 344.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 344.
 Package rerunfilecheck Info: File `reportTemplate.out' has not changed.
 (rerunfilecheck)             Checksum: 4117AFDEC750B1D65D56B07DE9D4EF4D;1436.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 337.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 344.
  ) 
 Here is how much of TeX's memory you used:
- 6820 strings out of 493117
- 99570 string characters out of 6135433
+ 6824 strings out of 493117
+ 99626 string characters out of 6135433
  195730 words of memory out of 5000000
- 10143 multiletter control sequences out of 15000+600000
+ 10146 multiletter control sequences out of 15000+600000
  12587 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,10n,28p,1166b,355s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,10n,28p,1166b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -596,10 +622,10 @@ exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texl
 ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
 ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
 Output written on /Users/eliasriederalt/CloudStation/MsssM/Elias-und-Mario/doc/
-latex/.texpadtmp/reportTemplate.pdf (13 pages, 246909 bytes).
+latex/.texpadtmp/reportTemplate.pdf (14 pages, 251679 bytes).
 PDF statistics:
  269 PDF objects out of 1000 (max. 8388607)
- 231 compressed objects within 3 object streams
+ 229 compressed objects within 3 object streams
  44 named destinations out of 1000 (max. 500000)
- 207 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 204 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -253,19 +253,25 @@ connected network:$\begin{bmatrix}
 
 
 
-llalaala
-
 \begin{figure}
 \includegraphics[scale=0.5]{compare1}
  \caption{resonalbe description}
 \end{figure}
 
 \begin{figure}
-\includegraphics[scale=0.5]{compare1}
+\includegraphics[scale=0.5]{compare2}
  \caption{resonalbe description}
 \end{figure}
+
+
+
 \subsection{Resilience}
 
+The resilience of a network can be investigated by looking at a few parameters. One of them is the change of the longest relativ distance when a node is removed. We applied this to two of our network matrices. One was the full connected and the other the connected gravity model. We were intrested if the two models would behave similar or not. Surprisingly they didnt. In the full connected network, zürich was extremly high. In contrast the connected network was more balanced, assumed you leave out Lugano and Vernier why at uster and köniz not????
+
+Resilience breaks down to a combinatoric problem. Some trivial solutions (Lugano)
+ 
+ sbb assured us they have replacement train at important nodes:D
 
 \begin{figure}
 \includegraphics[scale=0.5]{fullConnedtedShortestNetworkDistanceChange}
@@ -276,16 +282,6 @@ llalaala
 \includegraphics[scale=0.5]{connectedNetworkDistanceChange}
  \caption{Change of the shortes distance if a node is removed for the connected gravity model}
 \end{figure}
-
-
-
-
- Resilience breaks down to a combinatoric problem. Some trivial solutions (Lugano)
- 
- sbb assured us they have replacement train at important nodes:D
-
-....
-
 \subsection{Capacity}
 
 Unfortunatley none of our approaches could answer our qwestions about capacity. The Gravity model can give Information about the amount of traffic, but it doesn't tells anithing about how big this flows can get. What SBB told us is, how they deal with it: "If the route allows it, the train is maid as long as possible. All Platforms where the train stops have to be long enough. As additional action additional trains are added during the rush our"..."Alternatively the rolling stock can be optimised. On routes with little space, rolling stock with high capacity is used. If all these actions don't suffice, an extension is required" (Reference zu Questions). One other thing they mentioned is, that their trying to foster flexible worktime and homeoffices. Their doing this by negotiating with other big employers. (reference mail mueller 3. dez, + article in mail). This all seems all to be aimed at decresing the rushour peaks, not at handeling them. An other thing they mentioned is, that with higher frequencys and shorter travel times higher the attractivity of line. Which leeds back to higer demands and more traffic, a vicious circle.
@@ -294,10 +290,12 @@ Unfortunatley none of our approaches could answer our qwestions about capacity. 
 
 
 \section{Summary and Outlook}
-\subsection{Summary}
-Our goal was to model the swiss train 
 
-We found out quiet interesting things about the Swiss train network. Of course it would have been nice if we could have found more answers. But we found some interesting trails for further research.\newline
+The result, a model of the swiss train system, that came out had its advantages and disadvantages. Our goal to model the swiss train system was maybe aimed a bit high. We couldnt answer our questions about resilience and capacity as detailed as desired. What functioned very well is the model of the people flow. The connected network could model the flows bether than the classic full connected gravity model????\newline 
+
+ 
+
+We found out quiet interesting things about the Swiss train network and some interesting trails for further research.\newline
 
 One aspect who would be worth investigating are the rushour peaks. Maybe it would be possible to approach them with differential equations, but it seem to become very complex there. Even the newokspecialist from SBB could not  give us a general answer what the demands fora network are to handle peaks efficient. (ref)
 
@@ -308,10 +306,20 @@ One aspect who would be worth investigating are the rushour peaks. Maybe it woul
 
 
 \section{References}
-1. Projectfolder: Github.com/EleSwag/Elias-und-Mario (all code ans files are accesible here).\newline2. Gravity Model \url{http://en.wikipedia.org/wiki/Gravity_model}\newline3. List of Citys\url{http://de.wikipedia.org/wiki/Liste_der_Städte_in_der_Schweiz}\newline4. Important Train Nodes\url{http://de.wikipedia.org/wiki/Eisenbahnknoten/\#Schweiz}\newline5. SBB online timetable \url{http://www.sbb.ch/fahrplan.html}\newline6. Olivia complex complexity??????\newline7. Floyd Warshall??????????\newlineSBB Data:8. Correspondence Werner Nuber (Appendix)\newline
-9. Correspondence Mathias Müller (Appendix)\newline
-10. Correspondece Nadine Ruch (Appendix)\newline
-11. Link for timetable Data \url{http://gtfs.geops.ch}\newline12. Seat critical trains (Appendix)\newline13. Answers from Nadine Ruch()\newline
+1. Projectfolder: Github.com/EleSwag/Elias-und-Mario (all code ans files are accesible here).\newline2. Gravity Model \url{http://en.wikipedia.org/wiki/Gravity_model}\newline3. List of Citys\url{http://de.wikipedia.org/wiki/Liste_der_Städte_in_der_Schweiz}\newline4. Important Train Nodes\url{http://de.wikipedia.org/wiki/Eisenbahnknoten/\#Schweiz}\newline5. SBB online timetable \url{http://www.sbb.ch/fahrplan.html}\newline6. Olivia complex complexity??????\newline7. Floyd Warshall??????????\newline
+SBB Correspondence (all in Appendix)\newline
+8. Werner Nuber\newline
+Director Senior Advisor\newline
+Schweizerische Bundesbahnen SBB\newline
+9. Matthias Müller\newline
+Communication passenger traffic\newline
+Schweizerische Bundesbahnen SBB\newline
+10. Nadine Ruch\newline
+Passenger traffic, corporate development,
+demand developmend \newline
+
+SBB Data:\newline
+11. Link for timetable Data \url{http://gtfs.geops.ch}\newline12. Seat critical trains (Appendix)\newline13. Answers from Nadine Ruch(Appendix)\newline
 
 14. SBB Konzernlagebericht 2013 site 7 absatz 5???????????\url{http://geschaeftsbericht.sbb.ch/fileadmin/user_upload/Downloads/SBB_Konzernlagebericht_GBNB_2013.pdf}\newline
 
