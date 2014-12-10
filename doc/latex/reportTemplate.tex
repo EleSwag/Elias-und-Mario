@@ -89,7 +89,7 @@ This project looks at the Swiss train system. It investigates the flow of people
 
 \section{Individual contributions}
 
-We made the whole work in a close teamwork. It was made in continuous exchange and by inpiring each other????? Mario set the focus a bit more on coding. Elias on the Concepts???????? You can see all the steps on github. Mario has the username mlv19 and Elias is EleSwag.\newline
+We made the whole work in a close teamwork. It was made in continuous exchange and by inpiring each other????? Mario set the focus a bit more on coding. Elias on the Concepts and Data???????? You can see all the steps on github. Mario has the username mlv19 and Elias is EleSwag.\newline
 
 \url{https://github.com/EleSwag/Elias-und-Mario}
 
@@ -110,7 +110,7 @@ The first possibility would have been getting a rich data set from SBB. Complex 
 The second, alternative possibility was getting nothing. But with the gravity model we could be sure to have an angle even  without data. This was kind of a backup plan. Of course the questions would have to be asked way more general  
 
 So the question that draws through both approaches is:\newline 
-\textbf{How do you make a good model of the Swiss train system and what statements can we make with it about the traffic flow, the capacity and the resilience of it?}    
+\textbf{How do you make a good model that kann simulat öojhaöghqöowrgh of the Swiss train system and what statements can we make with it about the traffic flow, the capacity and the resilience of it?}    
 
 
 \section{Description of the Model}
@@ -118,7 +118,7 @@ So the question that draws through both approaches is:\newline
 In  social science -especially in international economics in trade simulations- it is a common and well established approach to simulate flows with a gravity model. The motivation behind it is the physical gravity force. This is defined by $F_G:=G\frac{m_1 m_2}{r^2}$, where G is the gravity constant, $m_i$ is the mass of the  i-Th body for $i=1,2$ and r is the distance between body 1 and body 2.
 
 
-This leads to the general ansatz????????:
+This leads to the general ansatz:
 \begin{align*}
 F_{ij}=G\frac{M_i^{\beta_1}M_j^{\beta_2}}{D_{ij}^{\beta_3}}
 \end{align*}
@@ -196,7 +196,7 @@ The notes also allowed as to implement a function which checks if a network is s
 
 \subsection{Networkflow}
 
-To determine how powerful the gravity model is, you have to be very careful about your question. It strongly depends of your point of view. If you want to get an impression of the amount of traffic of the 10 biggest cities in Switzerland (ev results korrelation fo), you might get quiet good results. But if you slightly change your point of view and ask yourself in which cities of Switzerland a big amount of traffic occurs, your gravity model might not be overall correct. Best example is Olten. Small number of inhabitants big amount of traffic. Even one of the seat critical trains (train were you might have to stand) (reference), departs from olten
+To determine how powerful the gravity model is, you have to be very careful about your question. It strongly depends on your point of view. If you want to get an impression of the amount of traffic of the 10 biggest cities in Switzerland (ev results korrelation fo), you might get quiet good results. But if you slightly change your point of view and ask yourself in which cities of Switzerland a big amount of traffic occurs, your gravity model might not be overall correct. Best example is Olten. Small number of inhabitants big amount of traffic. Even one of the seat critical trains , departs from olten(train were you might have to stand) (reference). So precisley for further investigations on for capacity, these flows can get important.
 
 The other, pretty obvious weakness of the gravity model are time variable flows. We learned, that this is a quiet important aspect if you want to find out something about capacity of this network. The fastest growing traffic flows in the network are the peaks in the rush-hour. (Geschäftsbericht s 07).
 
@@ -251,19 +251,33 @@ connected network:$\begin{bmatrix}
 
 \end{bmatrix}$
 
+
+
+llalaala
+
 \begin{figure}
 \includegraphics[scale=0.5]{compare1}
  \caption{resonalbe description}
 \end{figure}
 
 \begin{figure}
-\includegraphics[scale=0.5]{compare2}
+\includegraphics[scale=0.5]{compare1}
  \caption{resonalbe description}
+\end{figure}
+\subsection{Resilience}
+
+
+\begin{figure}
+\includegraphics[scale=0.5]{fullConnedtedShortestNetworkDistanceChange}
+ \caption{Change of the shortest distance if a node is removed for the full connected gravity model}
+\end{figure}
+
+\begin{figure}
+\includegraphics[scale=0.5]{connectedNetworkDistanceChange}
+ \caption{Change of the shortes distance if a node is removed for the connected gravity model}
 \end{figure}
 
 
-
-\subsection{Resilience}
 
 
  Resilience breaks down to a combinatoric problem. Some trivial solutions (Lugano)
@@ -281,16 +295,16 @@ Unfortunatley none of our approaches could answer our qwestions about capacity. 
 
 \section{Summary and Outlook}
 \subsection{Summary}
+Our goal was to model the swiss train 
+
+We found out quiet interesting things about the Swiss train network. Of course it would have been nice if we could have found more answers. But we found some interesting trails for further research.\newline
+
+One aspect who would be worth investigating are the rushour peaks. Maybe it would be possible to approach them with differential equations, but it seem to become very complex there. Even the newokspecialist from SBB could not  give us a general answer what the demands fora network are to handle peaks efficient. (ref)
 
 
 
 
 
-
-\subsection{Outlook}
-We found out quiet interesting things about the Swiss train network. Of course it would have been nice if we could have found more answers but we found some interesting trails who would be worth investigating further.\newline
-
-One aspect who would be worth investigating are the rushour peaks. Maybe it would be possible to approach them with differential equtions, but it seem to become very complex there. Even the newokspecialist from SBB could give us a general answere what the demands a network needs to meet to handle them.
 
 
 \section{References}
