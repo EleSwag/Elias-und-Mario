@@ -9,13 +9,15 @@
 \contentsline {subsection}{\numberline {4.4}The Data approach}{7}{subsection.4.4}
 \contentsline {section}{\numberline {5}Implementation}{7}{section.5}
 \contentsline {subsection}{\numberline {5.1}Network flow-function}{7}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Visualization}{7}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.2}Visualization}{8}{subsection.5.2}
 \contentsline {subsection}{\numberline {5.3}Investigation-function}{8}{subsection.5.3}
 \contentsline {section}{\numberline {6}Simulation Results and Discussion}{9}{section.6}
 \contentsline {subsection}{\numberline {6.1}General Network Parameters}{9}{subsection.6.1}
 \contentsline {subsection}{\numberline {6.2}Networkflow}{9}{subsection.6.2}
 \contentsline {subsubsection}{\numberline {6.2.1}Comparison of our flow with the real flow from some nodes}{10}{subsubsection.6.2.1}
 \contentsline {subsection}{\numberline {6.3}Resilience}{11}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}capacity}{11}{subsection.6.4}
-\contentsline {section}{\numberline {7}Summary and Outlook}{11}{section.7}
+\contentsline {subsection}{\numberline {6.4}Capacity}{11}{subsection.6.4}
+\contentsline {section}{\numberline {7}Summary and Outlook}{12}{section.7}
+\contentsline {subsection}{\numberline {7.1}Summary}{12}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Outlook}{12}{subsection.7.2}
 \contentsline {section}{\numberline {8}References}{12}{section.8}

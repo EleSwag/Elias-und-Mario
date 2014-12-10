@@ -1,6 +1,7 @@
 \documentclass[11pt]{article}
 \usepackage{geometry}                
-\geometry{letterpaper}                   
+\geometry{letterpaper} 
+
 
 \usepackage{graphicx}
 \usepackage{amssymb}
@@ -83,12 +84,13 @@
 
 \section{Abstract}
 
-This project looks at the Swiss train system. It investigates the flow of people in this transport system which is quiet important for this country. The goal was to find relations between properties like capacity, amount of people travelling, delay, fragility and more. On one hand this is approached  by a general theoretical model. On the other hand by real data. These two methods lead to a model of the Swiss train  network. On the basis of this model the properties are analysed. The Two approaches merge at end and allow us two make some statements.
+This project looks at the Swiss train system. It investigates the flow of people in this transport system which is quiet important for this country. The goal was to find relations between properties like capacity, amount of people travelling, delay, fragility and more. On one hand this is approached  by a general theoretical model. On the other hand by real data. These two methods lead to a model of the Swiss train  network. On the basis of this model the properties are analysed. The two approaches merge at end and allow us two make some statements.
  
 
 \section{Individual contributions}
 
-All steps are shared on github \citep{Github}
+We made the whole work in a close teamwork. It was made in continuous exchange and by inpiring each other????? Mario set the focus a bit more on coding. Elias on the Concepts???????? You can see all the steps on github. Mario has the username mlv19 and Elias is EleSwag.\newline
+
 \url{https://github.com/EleSwag/Elias-und-Mario}
 
 \section{Introduction and Motivations}
@@ -96,16 +98,16 @@ All steps are shared on github \citep{Github}
 \subsection{Idea and Motivation}
 
 
-Every day we travel from our homes to Zürich. The train in the morning is often very crowded and a lot of delays occur. This circumstance made us think about how the train network works and how you could handle such capacity shortages better. 
-So the general idea was to model the Swiss train network and then look at its properties. This may sound like a very general question and it is and it had to be!?? As you can imagine, the whole schedule is quiet complex and consists of a lot of data. At this point we didn't know how much and what kind of data we would have access to. We heard in our lecture that the number of inhabitants has an influence on the amount of traffic. The Type of model using this approach is called Gravity model.
+Every day we travel from our homes to Z\"urich. The train in the morning is often very crowded and a lot of delays occur. This circumstance made us think about how the train network works and how you could handle such capacity shortages better. 
+So the general idea was to model the Swiss train network and then look at its properties. This may sound like a very general question and it is and it had to be!?????? As you can imagine, the whole schedule is quiet complex and consists of a lot of data. At this point we didn't know how much and what kind of data we would have access to. We heard in our lecture that the number of inhabitants has an influence on the amount of traffic. The type of model using this approach is called Gravity model.
 
-So we had two approaches to start with: The Gravity model, witch we will be explained in detail after, and the effort getting real data.
+So we had two approaches to start with: The Gravity model, witch will be explained in detail after, and the effort getting real data.
 
-Because our interest in the problem came from observations in our everyday life, it was very important to us, that our work would have a strong connection to reality. To make this happen, we wrote a mail to SBB, the Swiss rail company, and asked them for real Data. Since we did not know if we would get the data we ha two make two plans.
+Because our interest in the problem came from observations in our everyday life, it was very important to us, that our work would have a strong connection to reality. To make this happen, we wrote a mail to SBB, the Swiss rail company, and asked them for real Data. Since we did not know if we would get the data we had two make two plans.
 
-The first possibility would have been getting a rich data set from sbb. There complex models considering the the frequency, speed and capacity of the trains and the resulting connections would be possible. In this case the question of capacity and load, and resilience were very interesting questions.
+The first possibility would have been getting a rich data set from SBB. Complex models considering the frequency, speed and capacity of the trains and the resulting connections would be possible. In this case the question of capacity and load, and resilience were very interesting questions.
 
-The second, alternative possibility was getting nothing. But with the gravity model we could be sure to have an angle even  without data. This was kind of a backup plan. Of course the the questions would have to be asked way more general  
+The second, alternative possibility was getting nothing. But with the gravity model we could be sure to have an angle even  without data. This was kind of a backup plan. Of course the questions would have to be asked way more general  
 
 So the question that draws through both approaches is:\newline 
 \textbf{How do you make a good model of the Swiss train system and what statements can we make with it about the traffic flow, the capacity and the resilience of it?}    
@@ -116,7 +118,7 @@ So the question that draws through both approaches is:\newline
 In  social science -especially in international economics in trade simulations- it is a common and well established approach to simulate flows with a gravity model. The motivation behind it is the physical gravity force. This is defined by $F_G:=G\frac{m_1 m_2}{r^2}$, where G is the gravity constant, $m_i$ is the mass of the  i-Th body for $i=1,2$ and r is the distance between body 1 and body 2.
 
 
-This leads to the general ansatz:
+This leads to the general ansatz????????:
 \begin{align*}
 F_{ij}=G\frac{M_i^{\beta_1}M_j^{\beta_2}}{D_{ij}^{\beta_3}}
 \end{align*}
@@ -125,7 +127,7 @@ F_{ij}=G\frac{M_i^{\beta_1}M_j^{\beta_2}}{D_{ij}^{\beta_3}}
 We transferred this idea to our situation by identifying the mass of a city to its population and used different definitions of distance. We dropped the constant at the beginning since we normalized the resulting flow anyway. As exponents we have chosen $\beta_1=\beta_2=\beta_3=1$ since with no experience this was as suitable as anything else.\newline
 
 \subsection{The development of the gravity model}
-In our first approach we took the 10  biggest cities in regard of the number of inhabitants plus two additional ones( Olten and Arthgoldau) which are well-known important nodes of the real network.\newline
+In our first approach we took the 10  biggest cities in regard of the number of inhabitants plus two additional ones (Olten and Arthgoldau) which are well-known important nodes of the real network.\newline
 \citetext{\url{http://de.wikipedia.org/wiki/Eisenbahnknoten/\#Schweiz}}
 .
 We wondered if they would also become as important  in our gravity model as in the real network.\newline
@@ -146,7 +148,7 @@ In the general gravity model we used geographical distance as the distance indic
 
 \subsection{The Data approach}
 
-As mentioned at the beginning the second way looking at our network was Data. Unfortunately the search for data turned out to be quiet difficult. We contacted SBB for data, but in a big company like this things are taking very long. When we finally got in contact with the right persons, there was just to less time left to process all and we could not get all the data we would have liked. Especially data about the load of the network and the capacity seems to be very sensitive. But the people from SBB were very kind and gave us what they could. They sent us a link where you public link \citetext{\url{http://gtfs.geops.ch}} were you can download the whole timetable in Gtfs-Format (General Transit Feed Spesification). Sadly we could not involve that, because of the already mentioned time shortness. We also could sent several questions to one of their networkspecialists.(Anhang:index x y z.....). Especially the numbers of people boarding and de-boarding for a few big cities made us curious. This is a number we maybe could relate with our gravity models.  
+As mentioned at the beginning the second way looking at our network was Data. Unfortunately the search for data turned out to be quiet difficult. We contacted SBB for data, but in a big company like this things are taking very long. When we finally got in contact with the right persons?????????, there was just to less time left to process all and we could not get all the data we would have liked. Especially data about the load of the network and the capacity seems to be very sensitive. But the people from SBB were very kind and gave us what they could. They sent us a public link \citetext{\url{http://gtfs.geops.ch}} were you can download the whole timetable in Gtfs-Format (General Transit Feed Spesification). Sadly we could not involve that, because of the already mentioned time shortness. We also could sent several questions to one of their networkspecialists.(Anhang:index x y z.....). Especially the numbers of people boarding and de-boarding for a few big cities made us curious. This is a number we maybe could relate with our gravity models.  
 
 
 \section{Implementation}
@@ -155,9 +157,9 @@ As mentioned at the beginning the second way looking at our network was Data. Un
 We created a script called data1 which contains all our relevant data.
 
 \subsection{Network flow-function}
-First we implemented a general network function which apply the theory mentioned in the description of the model to an adjacency matrix of a network. This function gave another adjacency matrix back with the simulate flow. This function would also run for every other gravity model based simulation.\newline
+First we implemented a general network function which apply ??????? the theory mentioned in the description of the model to an adjacency matrix of a network. This function gave another adjacency matrix back with the simulate flow. This function would also run for every other gravity model based simulation.\newline
 
-For the distance based gravity function we also need the geographical distance. For that purpose we added to each city its coordinates and computed the distance between each city by just applying Pythagoras. Since Switzerland is a small country we did not taken in account that the earth is a sphere and just approximated as if it was a plane. The function gives again a adjacency matrix back.
+For the distance based gravity function we also need the geographical distance. For that purpose we added to each city its coordinates and computed the distance between each city by just applying Pythagoras. Since Switzerland is a small country we did not take in account that the earth is a sphere and just approximated as if it was a plane. The function gives again an adjacency matrix back.
 
 
 \subsection{Visualization}
@@ -194,9 +196,9 @@ The notes also allowed as to implement a function which checks if a network is s
 
 \subsection{Networkflow}
 
-To determine how powerful the gravity model is, you have to be very careful about your question. It strongly depends of your point of view. If you want to get a impression of the amount of traffic of the 10 biggest cities in Switzerland (ev results korrelation fo), you might get quiet good results. But if you slightly change your point of view and ask yourself in which cities of Switzerland a big amount of traffic occurs, your gravity model might not be overall correct. Best example is Olten. Small number of inhabitants big amount of traffic. Even one of the seat critical trains (train were you might have to stand) (reference), departs from olten
+To determine how powerful the gravity model is, you have to be very careful about your question. It strongly depends of your point of view. If you want to get an impression of the amount of traffic of the 10 biggest cities in Switzerland (ev results korrelation fo), you might get quiet good results. But if you slightly change your point of view and ask yourself in which cities of Switzerland a big amount of traffic occurs, your gravity model might not be overall correct. Best example is Olten. Small number of inhabitants big amount of traffic. Even one of the seat critical trains (train were you might have to stand) (reference), departs from olten
 
-The other, pretty obvious weakness of the gravity model are time variable flows. Of course you cant. We learned that taht this a quiet important aspect  if you want to find out something about capacity of this network. The fastest growing traffic flows in the network are the peaks in the rush-hour. (Geschäftsberich s 07)
+The other, pretty obvious weakness of the gravity model are time variable flows. We learned, that this is a quiet important aspect if you want to find out something about capacity of this network. The fastest growing traffic flows in the network are the peaks in the rush-hour. (Geschäftsbericht s 07).
 
 \subsubsection{Comparison of our flow with the real flow from some nodes}
 fullconnected network:$\begin{bmatrix}
@@ -262,29 +264,46 @@ connected network:$\begin{bmatrix}
 
 
 \subsection{Resilience}
+
+
  Resilience breaks down to a combinatoric problem. Some trivial solutions (Lugano)
  
  sbb assured us they have replacement train at important nodes:D
 
 ....
 
-\subsection{capacity}
+\subsection{Capacity}
 
-Unfortunatley none of our approaches could answer our qwestions about capacity. The Gravity model can give Information about the amount of traffic, but it doesn't tells anithing about how big this flows can get. What SBB told us is, how they deal with it "If the route allows it, the train is maid as long as possible. All Platforms where the train stops have to be long enough. As additional action additional trains are added during the rush our"..."Alternatively the rolling stock can be optimised. On routes with little space, rolling stock with high capacity is used. If all these actions don't suffice, an extension is required" (Reference zu Questions). One other thing they mentioned is, that their trying to foster flexible worktime and homeoffices. Their doing this by negotiating with other big employers. (reference mail mueller 3. dez, + article in mail). This all seems all to be aimed at decresing the rushour peaks.  
+Unfortunatley none of our approaches could answer our qwestions about capacity. The Gravity model can give Information about the amount of traffic, but it doesn't tells anithing about how big this flows can get. What SBB told us is, how they deal with it: "If the route allows it, the train is maid as long as possible. All Platforms where the train stops have to be long enough. As additional action additional trains are added during the rush our"..."Alternatively the rolling stock can be optimised. On routes with little space, rolling stock with high capacity is used. If all these actions don't suffice, an extension is required" (Reference zu Questions). One other thing they mentioned is, that their trying to foster flexible worktime and homeoffices. Their doing this by negotiating with other big employers. (reference mail mueller 3. dez, + article in mail). This all seems all to be aimed at decresing the rushour peaks, not at handeling them. An other thing they mentioned is, that with higher frequencys and shorter travel times higher the attractivity of line. Which leeds back to higer demands and more traffic, a vicious circle.
 
 
 
 
 \section{Summary and Outlook}
+\subsection{Summary}
 
-Outlook:
-We found out quiet interesting things about the Swiss train network. Of course it would have been nice if we could have found more answers but we found some interesting trails who would be worth investigating further
-The rushour peaks: 
+
+
+
+
+
+\subsection{Outlook}
+We found out quiet interesting things about the Swiss train network. Of course it would have been nice if we could have found more answers but we found some interesting trails who would be worth investigating further.\newline
+
+One aspect who would be worth investigating are the rushour peaks. Maybe it would be possible to approach them with differential equtions, but it seem to become very complex there. Even the newokspecialist from SBB could give us a general answere what the demands a network needs to meet to handle them.
 
 
 \section{References}
+1. Projectfolder: Github.com/EleSwag/Elias-und-Mario (all code ans files are accesible here).\newline2. Gravity Model \url{http://en.wikipedia.org/wiki/Gravity_model}\newline3. List of Citys\url{http://de.wikipedia.org/wiki/Liste_der_Städte_in_der_Schweiz}\newline4. Important Train Nodes\url{http://de.wikipedia.org/wiki/Eisenbahnknoten/\#Schweiz}\newline5. SBB online timetable \url{http://www.sbb.ch/fahrplan.html}\newline6. Olivia complex complexity??????\newline7. Floyd Warshall??????????\newlineSBB Data:8. Correspondence Werner Nuber (Appendix)\newline
+9. Correspondence Mathias Müller (Appendix)\newline
+10. Correspondece Nadine Ruch (Appendix)\newline
+11. Link for timetable Data \url{http://gtfs.geops.ch}\newline12. Seat critical trains (Appendix)\newline13. Answers from Nadine Ruch()\newline
 
-\bibliography{reference}
+14. SBB Konzernlagebericht 2013 site 7 absatz 5???????????\url{http://geschaeftsbericht.sbb.ch/fileadmin/user_upload/Downloads/SBB_Konzernlagebericht_GBNB_2013.pdf}\newline
+
+\appendix
+
+
 
 
 \end{document}  

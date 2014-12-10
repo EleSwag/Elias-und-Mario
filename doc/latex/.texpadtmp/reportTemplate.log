@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.6.24)  7 DEC 2014 20:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.6.24)  9 DEC 2014 21:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -307,20 +307,20 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 reportTemplate.aux)
 \openout1 = `reportTemplate.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -371,7 +371,7 @@ LaTeX Font Info:    ... okay on input line 17.
 \everyMPtoPDFconversion=\toks23
 )
 \AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring OFF on input line 17.
+Package hyperref Info: Link coloring OFF on input line 18.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -380,9 +380,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count120
 )
-LaTeX Info: Redefining \ref on input line 17.
-LaTeX Info: Redefining \pageref on input line 17.
-LaTeX Info: Redefining \nameref on input line 17.
+LaTeX Info: Redefining \ref on input line 18.
+LaTeX Info: Redefining \pageref on input line 18.
+LaTeX Info: Redefining \nameref on input line 18.
 
 (/Users/eliasriederalt/CloudStation/MsssM/Elias-und-Mario/doc/latex/.texpadtmp/
 reportTemplate.out)
@@ -403,7 +403,7 @@ df ETHlogo.eps>
 (epstopdf)             \includegraphics on input line 5.
 Package epstopdf Info: Output file is already uptodate.
 
-<ETHlogo-eps-converted-to.pdf, id=88, 179.67125pt x 45.16875pt>
+<ETHlogo-eps-converted-to.pdf, id=96, 179.67125pt x 45.16875pt>
 File: ETHlogo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ETHlogo-eps-converted-to.pdf>
@@ -422,7 +422,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./ETHlo
 go-eps-converted-to.pdf>]
-Overfull \hbox (5.3226pt too wide) in paragraph at lines 43--61
+Overfull \hbox (5.3226pt too wide) in paragraph at lines 44--62
  [] 
  []
 
@@ -433,92 +433,134 @@ reportTemplate.toc)
 \openout4 = `reportTemplate.toc'.
 
  [3]
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
-Package natbib Warning: Citation `Github' on page 4 undefined on input line 91.
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
+
+ []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 130--134
 
-Overfull \hbox (1.62805pt too wide) in paragraph at lines 91--93
-\OT1/cmr/m/n/12 All steps are shared on github (\OT1/cmr/bx/n/12 ?\OT1/cmr/m/n/
-12 ) []$\OT1/cmtt/m/n/12 https : / / github . com / EleSwag / Elias-[]und-[]Mar
-io$[] 
+ []
+
+[5] <switzerland_network1.pdf, id=157, 597.23125pt x 845.1575pt>
+File: switzerland_network1.pdf Graphic file (type pdf)
+
+<use switzerland_network1.pdf>
+Package pdftex.def Info: switzerland_network1.pdf used on input line 139.
+(pdftex.def)             Requested size: 149.30743pt x 211.28885pt.
+ [6 <./switzerland_network1.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
+
+ []
+
+[7] <switzerland_network2.jpg, id=176, 563.10374pt x 421.575pt>
+File: switzerland_network2.jpg Graphic file (type jpg)
+
+<use switzerland_network2.jpg>
+Package pdftex.def Info: switzerland_network2.jpg used on input line 173.
+(pdftex.def)             Requested size: 281.55118pt x 210.78697pt.
+ [8 <./switzerland_network2.jpg>]
+Overfull \hbox (59.95958pt too wide) in paragraph at lines 188--195
+[] 
+ []
+
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¤ in font cmr12!
+<compare1.png, id=182, 422.32782pt x 316.18124pt>
+File: compare1.png Graphic file (type png)
+ <use compare1.png>
+Package pdftex.def Info: compare1.png used on input line 255.
+(pdftex.def)             Requested size: 211.16339pt x 158.09023pt.
+ [9]
+<compare2.png, id=188, 422.32782pt x 295.1025pt>
+File: compare2.png Graphic file (type png)
+ <use compare2.png>
+Package pdftex.def Info: compare2.png used on input line 260.
+(pdftex.def)             Requested size: 211.16339pt x 147.55087pt.
+ [10 <./compare1.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
+
+ []
+
+[11 <./compare2.png (PNG copy)>]
+Missing character: There is no Ã in font cmtt12!
+Missing character: There is no ¤ in font cmtt12!
+
+Overfull \hbox (9.5721pt too wide) in paragraph at lines 297--302
+\OT1/cmr/m/n/12 3. List of Citys[]$\OT1/cmtt/m/n/12 http : / / de . wikipedia .
+ org / wiki / Liste _ der _ Stdte _ in _ der _ Schweiz$[] 
+ []
+
+
+Overfull \hbox (28.09927pt too wide) in paragraph at lines 297--302
+\OT1/cmr/m/n/12 4. Im-por-tant Train Nodes[]$\OT1/cmtt/m/n/12 http : / / de . w
+ikipedia . org / wiki / Eisenbahnknoten / #Schweiz$[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--302
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--305
+
  []
 
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¼ in font cmr12!
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 124--126
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--311
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--132
+Underfull \hbox (badness 10000) in paragraph at lines 312--315
 
  []
 
-<switzerland_network1.pdf, id=139, 597.23125pt x 845.1575pt>
-File: switzerland_network1.pdf Graphic file (type pdf)
 
-<use switzerland_network1.pdf>
-Package pdftex.def Info: switzerland_network1.pdf used on input line 137.
-(pdftex.def)             Requested size: 149.30743pt x 211.28885pt.
- [5] [6 <./switzerland_network1.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 158--159
+Overfull \hbox (45.57388pt too wide) in paragraph at lines 316--317
+[]\OT1/cmr/m/n/12 14. SBB Konz-ern-lage-bericht 2013 site 7 ab-satz 5??????????
+?[]$\OT1/cmtt/m/n/12 http : / / geschaeftsbericht .
+ []
+
+
+Overfull \hbox (14.5956pt too wide) in paragraph at lines 316--317
+\OT1/cmtt/m/n/12 sbb . ch / fileadmin / user _ upload / Downloads / SBB _ Konze
+rnlagebericht _ GBNB _ 2013 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--317
 
  []
 
-[7] <switzerland_network2.jpg, id=166, 563.10374pt x 421.575pt>
-File: switzerland_network2.jpg Graphic file (type jpg)
-
-<use switzerland_network2.jpg>
-Package pdftex.def Info: switzerland_network2.jpg used on input line 171.
-(pdftex.def)             Requested size: 281.55118pt x 210.78697pt.
-
-Overfull \hbox (59.95958pt too wide) in paragraph at lines 186--193
-[] 
- []
-
-[8 <./switzerland_network2.jpg>]
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¤ in font cmr12!
-
-<compare1.png, id=172, 422.32782pt x 316.18124pt>
-File: compare1.png Graphic file (type png)
- <use compare1.png>
-Package pdftex.def Info: compare1.png used on input line 253.
-(pdftex.def)             Requested size: 211.16339pt x 158.09023pt.
- [9]
-<compare2.png, id=178, 422.32782pt x 295.1025pt>
-File: compare2.png Graphic file (type png)
- <use compare2.png>
-Package pdftex.def Info: compare2.png used on input line 258.
-(pdftex.def)             Requested size: 211.16339pt x 147.55087pt.
- [10 <./compare1.png (PNG copy)>]
-(/Users/eliasriederalt/CloudStation/MsssM/Elias-und-Mario/doc/latex/.texpadtmp/
-reportTemplate.bbl)
-
-Package natbib Warning: There were undefined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 290.
-[11 <./compare2.png (PNG copy)>] [12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 290.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 323.
+[12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 323.
 
 (/Users/eliasriederalt/CloudStation/MsssM/Elias-und-Mario/doc/latex/.texpadtmp/
 reportTemplate.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 290.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 290.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 323.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 323.
 Package rerunfilecheck Info: File `reportTemplate.out' has not changed.
 (rerunfilecheck)             Checksum: 4117AFDEC750B1D65D56B07DE9D4EF4D;1436.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 290.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 323.
  ) 
 Here is how much of TeX's memory you used:
- 6813 strings out of 493117
- 99354 string characters out of 6135433
+ 6814 strings out of 493117
+ 99218 string characters out of 6135433
  195730 words of memory out of 5000000
- 10138 multiletter control sequences out of 15000+600000
+ 10140 multiletter control sequences out of 15000+600000
  12587 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,10n,28p,1105b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,10n,28p,1166b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -532,10 +574,10 @@ exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texl
 ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
 ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
 Output written on /Users/eliasriederalt/CloudStation/MsssM/Elias-und-Mario/doc/
-latex/.texpadtmp/reportTemplate.pdf (12 pages, 230230 bytes).
+latex/.texpadtmp/reportTemplate.pdf (12 pages, 234393 bytes).
 PDF statistics:
- 247 PDF objects out of 1000 (max. 8388607)
- 211 compressed objects within 3 object streams
- 40 named destinations out of 1000 (max. 500000)
- 194 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 265 PDF objects out of 1000 (max. 8388607)
+ 229 compressed objects within 3 object streams
+ 42 named destinations out of 1000 (max. 500000)
+ 210 words of extra memory for PDF output out of 10000 (max. 10000000)
 
