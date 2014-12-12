@@ -5,7 +5,7 @@
 \BOOKMARK [1][-]{section.4}{Description of the Model}{}% 5
 \BOOKMARK [2][-]{subsection.4.1}{The classical gravity model}{section.4}% 6
 \BOOKMARK [2][-]{subsection.4.2}{The development of the gravity model}{section.4}% 7
-\BOOKMARK [2][-]{subsection.4.3}{Commend on the distance in the gravity model}{section.4}% 8
+\BOOKMARK [2][-]{subsection.4.3}{Comment on the distance in the gravity model}{section.4}% 8
 \BOOKMARK [2][-]{subsection.4.4}{The Data approach}{section.4}% 9
 \BOOKMARK [1][-]{section.5}{Implementation}{}% 10
 \BOOKMARK [2][-]{subsection.5.1}{Network flow-function}{section.5}% 11
@@ -14,8 +14,7 @@
 \BOOKMARK [1][-]{section.6}{Simulation Results and Discussion}{}% 14
 \BOOKMARK [2][-]{subsection.6.1}{General Network Parameters}{section.6}% 15
 \BOOKMARK [2][-]{subsection.6.2}{Networkflow}{section.6}% 16
-\BOOKMARK [3][-]{subsubsection.6.2.1}{Comparison of our flow with the real flow from some nodes}{subsection.6.2}% 17
-\BOOKMARK [2][-]{subsection.6.3}{Resilience}{section.6}% 18
-\BOOKMARK [2][-]{subsection.6.4}{Capacity}{section.6}% 19
-\BOOKMARK [1][-]{section.7}{Summary and Outlook}{}% 20
-\BOOKMARK [1][-]{section.8}{References}{}% 21
+\BOOKMARK [2][-]{subsection.6.3}{Resilience}{section.6}% 17
+\BOOKMARK [2][-]{subsection.6.4}{Capacity}{section.6}% 18
+\BOOKMARK [1][-]{section.7}{Summary and Outlook}{}% 19
+\BOOKMARK [1][-]{section.8}{References}{}% 20
