@@ -10,6 +10,7 @@
 \usepackage{amssymb, amsmath}
 \usepackage{hyperref}
 \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+\usepackage{pdfpages}
 
 %\title{The Swiss Train Network}
 %\author{Mario Vontobel, Elias Rieder}
@@ -24,44 +25,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newpage
-\section*{Agreement for free-download}
-\bigskip
 
+\includegraphics[scale=0.7]{agreement_download}
 
-\bigskip
-
-
-\large We hereby agree to make our source code for this project freely available for download from the web pages of the SOMS chair. Furthermore, we assure that all source code is written by ourselves and is not violating any copyright restrictions.
-
-\begin{center}
-
-\bigskip
-
-
-\bigskip
-
-
-\begin{tabular}{@{}p{3.3cm}@{}p{6cm}@{}@{}p{6cm}@{}}
-\begin{minipage}{3cm}
-
-\end{minipage}
-&
-\begin{minipage}{6cm}
-\vspace{2mm} \large Mario Vontobel
-
- \vspace{\baselineskip}
-
-\end{minipage}
-&
-\begin{minipage}{6cm}
-
-\large Elias Rieder
-
-\end{minipage}
-\end{tabular}
-
-
-\end{center}
 \newpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -70,6 +36,12 @@
 
 % IMPORTANT
 % you MUST include the ETH declaration of originality here; it is available for download on the course website or at http://www.ethz.ch/faculty/exams/plagiarism/index_EN; it can be printed as pdf and should be filled out in handwriting
+
+\newpage
+
+\includegraphics[scale=0.7]{plagiat_ETH}
+
+\newpage
 
 
 %%%%%%%%%% Table of content %%%%%%%%%%%%%%%%%
@@ -204,16 +176,16 @@ The detailed definitions of these parameters are described in reference 6
 
 \subsection{Networkflow}
 
-To determine how powerful the gravity model is, you have to be very careful about your question. It strongly depends on your point of view. If you want to get an impression of the amount of traffic of the 10 biggest cities in Switzerland, you might get quiet good results. But if you slightly change your point of view and ask yourself in which cities of Switzerland a big amount of traffic occurs, your gravity model might not be overall correct. Best example is Olten (small number of inhabitants big amount of traffic). Even one of the seat critical trains$_{12}$, departs from olten (train were you might have to stand). So precisley for further investigations on for capacity, these flows can get important.
+To determine how powerful the gravity model is, you have to be very careful about your question. It strongly depends on your point of view. If you want to get an impression of the amount of traffic of the 10 biggest cities in Switzerland, you might get quiet good results. But if you slightly change your point of view and ask yourself in which cities of Switzerland a big amount of traffic occurs, your gravity model might not be overall correct. 
+
+We tried to get an idea how our model response to reality. For that we brought our (de-)boarding into play. Because the flows in our model are undirected, the sum of all flows in a node should be equal to the people boarding plus the people deboarding. To check if how good our calculated flow match with the real flow, we divided one by the other to get a proportion. We did this for both of our models. You can see in the graphics that the citys with high popopulation are approximated with a similar relative factor. But the for important nodes of the real network both gravity models fail.Have a look at Olten (small number of inhabitants big amount of traffic). Even one of the seat critical trains$_{12}$, departs from olten (train were you might have to stand). But precisley for further investigations on capacity, these flows would be important.
+
 
 \begin{figure}[h]
 \includegraphics[scale=0.4]{compare1}
 \includegraphics[scale=0.4]{compare2}
  \caption{Network is the full connected gravity model based model and network 2 is the one with the connections from the schedule. The relative factor $=\frac{\text{Real data}}{\text{networkflow per City}}$.The networkflow per city is calculated for each city by summing over the columns.}
 \end{figure}
-
-
-
 
 
 
@@ -226,24 +198,22 @@ The other, pretty obvious weakness of the gravity model are time variable flows.
 
 \subsection{Resilience}
 
-The resilience of a network can be investigated by looking at a few parameters. One of them is the change of the longest relativ distance when a node is removed. We applied this to two of our network matrices. One was the full connected and the other the connected gravity model. We were intrested if the two models would behave similar or not. Surprisingly they didnt. In the full connected network, zürich was extremly high. In contrast the connected network was more balanced, assumed you leave out Lugano and Vernier why at uster and köniz not????
+The resilience of a network can be investigated by looking at a few parameters. One of them is the change of the longest relativ distance when a node is removed. We applied this to two of our network matrices. One was the full connected and the other the connected gravity model. We were intrested if the two models would behave similar or not. Network one was besides Z\"urich very resilience resistant meanwhile network 2 also had nodes where the network was not connected anymore if removed and in general also more sensitive. A remarkable observation was that in the network 2 the diameter phi falls extremly when Lugano is removed.
 
-Resilience breaks down to a combinatoric problem. Some trivial solutions (Lugano)
+
  
- sbb assured us they have replacement train at important nodes:D
+Besides that SBB assured$_{13}$ us they have replacement train at important nodes.
 
 \begin{figure}
-\includegraphics[scale=0.5]{fullConnedtedShortestNetworkDistanceChange}
- \caption{Change of the shortest distance if a node is removed for the full connected gravity model}
+\includegraphics[scale=0.4]{fullConnedtedShortestNetworkDistanceChange}
+\includegraphics[scale=0.4]{connectedNetworkDistanceChange}
+ \caption{Change of the shortest distance if a node is removed for the full connected gravity model (Network 1) and the connected one (Network 2). For network 2 zero means that the network was not connected anymore}
 \end{figure}
 
-\begin{figure}
-\includegraphics[scale=0.5]{connectedNetworkDistanceChange}
- \caption{Change of the shortes distance if a node is removed for the connected gravity model}
-\end{figure}
+
 \subsection{Capacity}
 
-Unfortunatley none of our approaches could answer our qwestions about capacity. The Gravity model can give Information about the amount of traffic, but it doesn't tells anithing about how big this flows can get. What SBB told us is, how they deal with it: "If the route allows it, the train is maid as long as possible. All Platforms where the train stops have to be long enough. As additional action additional trains are added during the rush our"..."Alternatively the rolling stock can be optimised. On routes with little space, rolling stock with high capacity is used. If all these actions don't suffice, an extension is required" (Reference zu Questions). One other thing they mentioned is, that their trying to foster flexible worktime and homeoffices. Their doing this by negotiating with other big employers. (reference mail mueller 3. dez, + article in mail). This all seems all to be aimed at decresing the rushour peaks, not at handeling them. An other thing they mentioned is, that with higher frequencys and shorter travel times higher the attractivity of line. Which leeds back to higer demands and more traffic, a vicious circle.
+Unfortunatley none of our approaches could answer our questions about capacity. The Gravity model can give Information about the amount of traffic, but it does not tells anything about how big this flows can get. What SBB told us is, how they deal with it: "If the route allows it, the train is maid as long as possible. All Platforms where the train stops have to be long enough. As additional action additional trains are added during the rush our...Alternatively the rolling stock can be optimised. On routes with little space, rolling stock with high capacity is used. If all these actions don't suffice, an extension is required"$_{13}$. One other thing they mentioned is, that their trying to foster flexible worktime and homeoffices. Their doing this by negotiating with other big employers$_{9}$. This all seems all to be aimed at decresing the rushour peaks, not at handeling them. An other thing they mentioned is, that with higher frequencys and shorter travel times higher the attractivity of line. Which leeds back to higer demands and more traffic, a vicious circle.
 
 
 
@@ -265,26 +235,44 @@ One aspect who would be worth investigating are the rushour peaks. Maybe it woul
 
 
 \section{References}
-1. Projectfolder: \url{http://Github.com/EleSwag/Elias-und-Mario} (all code ans files are accesible here).\newline2. Gravity Model \url{http://en.wikipedia.org/wiki/Gravity_model}\newline3. List of Citys\url{http://de.wikipedia.org/wiki/Liste_der_Städte_in_der_Schweiz}\newline4. Important Train Nodes \url{http://de.wikipedia.org/wiki/Eisenbahnknoten/\#Schweiz}\newline5. SBB online timetable \url{http://www.sbb.ch/fahrplan.html}\newline6. Olivia Woolley and others  fsfölksflös Complexity in human transportation networks: a comparative analysis of worldwide air transportation and global cargo-ship movements?\newline7. Vorlesung Algorithmen und Komplexität Angelika Steger ETH Z\"ürich\newline
-SBB Correspondence (all in Appendix)\newline
-8. Werner Nuber\newline
+\begin{itemize}
+\item[1.] Projectfolder]: \url{http://Github.com/EleSwag/Elias-und-Mario} (all code ans files are accesible here).\newline\item[2.] Gravity Model \url{http://en.wikipedia.org/wiki/Gravity_model}\newline\item[3.]List of Citys\url{http://de.wikipedia.org/wiki/Liste_der_Städte_in_der_Schweiz}\newline\item[4.] Important Train Nodes \url{http://de.wikipedia.org/wiki/Eisenbahnknoten/\#Schweiz}\newline\item[5.] SBB online timetable \url{http://www.sbb.ch/fahrplan.html}\newline\item[6.] Olivia Woolley and others  fsfölksflös Complexity in human transportation networks: a comparative analysis of worldwide air transportation and global cargo-ship movements?\newline\item[7.] Vorlesung Algorithmen und Komplexität Angelika Steger ETH Z\"urich\newline
+
+
+SBB Correspondence\newline
+\item[8.] Werner Nuber\newline
 Director Senior Advisor\newline
 Schweizerische Bundesbahnen SBB\newline
-9. Matthias Müller\newline
+\item[9.] Matthias M\"uller\newline
 Communication passenger traffic\newline
 Schweizerische Bundesbahnen SBB\newline
-10. Nadine Ruch\newline
+\item[10.] Nadine Ruch\newline
 Passenger traffic, corporate development,
 demand developmend \newline
 
 SBB Data:\newline
-11. Link for timetable Data \url{http://gtfs.geops.ch}\newline12. Seat critical trains (Appendix)\newline13. Answers from Nadine Ruch(Appendix)\newline
+\item[11.] Link for timetable Data \url{http://gtfs.geops.ch}\newline\item[12.] Seat critical trains (Appendix)\newline\item[13.] Answers from Nadine Ruch from SBB (Appendix)\newline
 
-14. SBB Konzernlagebericht 2013 site 7 absatz 5???????????\url{http://geschaeftsbericht.sbb.ch/fileadmin/user_upload/Downloads/SBB_Konzernlagebericht_GBNB_2013.pdf}\newline
+\item[14.] SBB Konzernlagebericht 2013 site 7 absatz 5???????????\url{http://geschaeftsbericht.sbb.ch/fileadmin/user_upload/Downloads/SBB_Konzernlagebericht_GBNB_2013.pdf}\newline
 
-15. Swiss Grid \url{http://en.wikipedia.org/wiki/Swiss_coordinate_system}
+\item[15.]Swiss Grid \url{http://en.wikipedia.org/wiki/Swiss_coordinate_system}
+\end{itemize}
 
-\appendix
+\newpage
+
+\section{Appendix}
+
+\subsection{Seat critical trains}
+
+
+\begin{figure}[h]
+\includepdf[pages={1},scale=0.8]{HVZ_Reporting_Auslastung.pdf}
+\end{figure}
+\newpage
+\subsection{Answers from Nadine Ruch from SBB}
+\begin{figure}[h]
+\includepdf[pages={1},scale=0.8]{Answers_SBB_(English_translated).pdf}
+\end{figure}
 
 
 

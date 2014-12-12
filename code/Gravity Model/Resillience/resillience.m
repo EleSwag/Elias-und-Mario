@@ -37,11 +37,10 @@ phi=phi./phi_B-1;
 
 figure
 bar(phi);
-figure
-contour(phi);
-title('Resillience');
+title('Resillience Network 1','Fontsize',14);
 xlabel('Removed City');
 ylabel('Prozentual rise in the diameter phi');
+ylim([-0.6,0.5]);
 
                  
               

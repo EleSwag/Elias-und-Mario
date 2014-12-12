@@ -30,3 +30,8 @@ ylim([0,12*10^5]);
 xlabel('Cities');
 ylabel('relativ factor');
 title('Comparison with real data and Network 2','Fontsize',14);
+
+
+
+
+
