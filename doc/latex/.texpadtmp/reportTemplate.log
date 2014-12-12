@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.6.24)  12 DEC 2014 20:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.6.24)  12 DEC 2014 21:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -538,41 +538,43 @@ File: switzerland_network2.jpg Graphic file (type jpg)
 Package pdftex.def Info: switzerland_network2.jpg used on input line 143.
 (pdftex.def)             Requested size: 281.55118pt x 210.78697pt.
 
-Overfull \hbox (34.69637pt too wide) in paragraph at lines 159--167
-[][] 
+Overfull \hbox (2.62737pt too wide) in paragraph at lines 156--157
+\OT1/cmr/m/n/10.95 Win-terthur, Luzern, St.Gallen, Lugano, Biel, Thun, Ko-eniz,
+ Chaux-de-Fonds, Schaffhausen,
  []
 
 [9 <./switzerland_network2.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
+Overfull \hbox (34.69637pt too wide) in paragraph at lines 161--169
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
 
  []
 
-<compare1.png, id=188, 562.1pt x 421.575pt>
+[10] <compare1.png, id=194, 562.1pt x 421.575pt>
 File: compare1.png Graphic file (type png)
  <use compare1.png>
-Package pdftex.def Info: compare1.png used on input line 185.
+Package pdftex.def Info: compare1.png used on input line 189.
 (pdftex.def)             Requested size: 224.83601pt x 168.627pt.
 
-<compare2.png, id=189, 562.1pt x 421.575pt>
+<compare2.png, id=195, 562.1pt x 421.575pt>
 File: compare2.png Graphic file (type png)
  <use compare2.png>
-Package pdftex.def Info: compare2.png used on input line 186.
+Package pdftex.def Info: compare2.png used on input line 190.
 (pdftex.def)             Requested size: 224.83601pt x 168.627pt.
 
-Overfull \hbox (22.10074pt too wide) in paragraph at lines 185--187
+Overfull \hbox (22.10074pt too wide) in paragraph at lines 189--191
 [][] [] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[10]
 <fullConnedtedShortestNetworkDistanceChange.png, id=196, 562.1pt x 421.575pt>
 File: fullConnedtedShortestNetworkDistanceChange.png Graphic file (type png)
 
 <use fullConnedtedShortestNetworkDistanceChange.png>
 Package pdftex.def Info: fullConnedtedShortestNetworkDistanceChange.png used on
- input line 208.
+ input line 212.
 (pdftex.def)             Requested size: 224.83601pt x 168.627pt.
 
 <connectedNetworkDistanceChange.png, id=197, 562.1pt x 421.575pt>
@@ -580,20 +582,17 @@ File: connectedNetworkDistanceChange.png Graphic file (type png)
 
 <use connectedNetworkDistanceChange.png>
 Package pdftex.def Info: connectedNetworkDistanceChange.png used on input line 
-209.
+213.
 (pdftex.def)             Requested size: 224.83601pt x 168.627pt.
 
-Overfull \hbox (22.10074pt too wide) in paragraph at lines 208--210
+Overfull \hbox (22.10074pt too wide) in paragraph at lines 212--214
 [][] [] 
  []
 
-[11 <./compare1.png (PNG copy)> <./compare2.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 223--224
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 227--228
+[11 <./compare1.png (PNG copy)> <./compare2.png (PNG copy)>] [12 <./fullConnedt
+edShortestNetworkDistanceChange.png (PNG copy)> <./connectedNetworkDistanceChan
+ge.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
 
  []
 
@@ -602,68 +601,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 239--240
 
  []
 
-[12 <./fullConnedtedShortestNetworkDistanceChange.png (PNG copy)> <./connectedN
-etworkDistanceChange.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 240--241
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
 
  []
 
 Missing character: There is no Ã in font cmtt10!
 Missing character: There is no ¤ in font cmtt10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--242
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
 
  []
 
 
-Overfull \hbox (13.49767pt too wide) in paragraph at lines 242--243
+Overfull \hbox (13.49767pt too wide) in paragraph at lines 260--261
 []\OT1/cmr/m/n/10.95 Important Train Nodes []$\OT1/cmtt/m/n/10.95 http : / / de
  . wikipedia . org / wiki / Eisenbahnknoten / #Schweiz$[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--243
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
-
- []
-
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ¶ in font cmr10!
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ¶ in font cmr10!
-
-Underfull \hbox (badness 10000) in paragraph at lines 245--246
-
- []
-
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ¤ in font cmr10!
-
-Underfull \hbox (badness 10000) in paragraph at lines 246--247
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 249--250
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 251--254
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 254--257
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 257--260
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
 
  []
 
@@ -677,26 +639,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 263--264
 
  []
 
-[13]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¤ in font cmr10!
+
 Underfull \hbox (badness 10000) in paragraph at lines 264--265
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
-
- []
-
-
-Overfull \hbox (6.19856pt too wide) in paragraph at lines 267--268
-[]\OT1/cmr/m/n/10.95 SBB Konz-ern-lage-bericht 2013 site 7 ab-satz 5???????????
-[]$\OT1/cmtt/m/n/10.95 http : / / geschaeftsbericht .
- []
-
-
-Overfull \hbox (11.27596pt too wide) in paragraph at lines 267--268
-\OT1/cmtt/m/n/10.95 sbb . ch / fileadmin / user _ upload / Downloads / SBB _ Ko
-nzernlagebericht _ GBNB _ 2013 .
  []
 
 
@@ -704,114 +651,154 @@ Underfull \hbox (badness 10000) in paragraph at lines 267--268
 
  []
 
-[14] <HVZ_Reporting_Auslastung.pdf, id=227, 845.0762pt x 597.55246pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--272
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--275
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--279
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 280--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--283
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--285
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
+
+ []
+
+[15] <HVZ_Reporting_Auslastung.pdf, id=230, 845.0762pt x 597.55246pt>
 File: HVZ_Reporting_Auslastung.pdf Graphic file (type pdf)
 
 <use HVZ_Reporting_Auslastung.pdf>
-Package pdftex.def Info: HVZ_Reporting_Auslastung.pdf used on input line 280.
+Package pdftex.def Info: HVZ_Reporting_Auslastung.pdf used on input line 299.
 (pdftex.def)             Requested size: 845.07414pt x 597.551pt.
 File: HVZ_Reporting_Auslastung.pdf Graphic file (type pdf)
  <use HVZ_Reporting_Auslastung.pdf>
-Package pdftex.def Info: HVZ_Reporting_Auslastung.pdf used on input line 280.
+Package pdftex.def Info: HVZ_Reporting_Auslastung.pdf used on input line 299.
 (pdftex.def)             Requested size: 845.07414pt x 597.551pt.
 
-<HVZ_Reporting_Auslastung.pdf, id=230, page=1, 845.0762pt x 597.55246pt>
+<HVZ_Reporting_Auslastung.pdf, id=233, page=1, 845.0762pt x 597.55246pt>
 File: HVZ_Reporting_Auslastung.pdf Graphic file (type pdf)
 
 <use HVZ_Reporting_Auslastung.pdf, page 1>
 Package pdftex.def Info: HVZ_Reporting_Auslastung.pdf, page1 used on input line
- 280.
+ 299.
 (pdftex.def)             Requested size: 845.07414pt x 597.551pt.
 File: HVZ_Reporting_Auslastung.pdf Graphic file (type pdf)
 
 <use HVZ_Reporting_Auslastung.pdf, page 1>
 Package pdftex.def Info: HVZ_Reporting_Auslastung.pdf, page1 used on input line
- 280.
+ 299.
 (pdftex.def)             Requested size: 676.06189pt x 478.04262pt.
 File: HVZ_Reporting_Auslastung.pdf Graphic file (type pdf)
 
 <use HVZ_Reporting_Auslastung.pdf, page 1>
 Package pdftex.def Info: HVZ_Reporting_Auslastung.pdf, page1 used on input line
- 280.
+ 299.
 (pdftex.def)             Requested size: 676.06189pt x 478.04262pt.
 File: HVZ_Reporting_Auslastung.pdf Graphic file (type pdf)
 
 <use HVZ_Reporting_Auslastung.pdf, page 1>
 Package pdftex.def Info: HVZ_Reporting_Auslastung.pdf, page1 used on input line
- 280.
+ 299.
 (pdftex.def)             Requested size: 676.06189pt x 478.04262pt.
 File: HVZ_Reporting_Auslastung.pdf Graphic file (type pdf)
 
 <use HVZ_Reporting_Auslastung.pdf, page 1>
 Package pdftex.def Info: HVZ_Reporting_Auslastung.pdf, page1 used on input line
- 282.
+ 301.
 (pdftex.def)             Requested size: 676.06189pt x 478.04262pt.
- [15 <./HVZ_Reporting_Auslastung.pdf>] <Answers_SBB_(English_translated).pdf, i
-d=245, 597.23125pt x 845.1575pt>
+ [16 <./HVZ_Reporting_Auslastung.pdf>] <Answers_SBB_(English_translated).pdf, i
+d=248, 597.23125pt x 845.1575pt>
 File: Answers_SBB_(English_translated).pdf Graphic file (type pdf)
 
 <use Answers_SBB_(English_translated).pdf>
 Package pdftex.def Info: Answers_SBB_(English_translated).pdf used on input lin
-e 285.
+e 304.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: Answers_SBB_(English_translated).pdf Graphic file (type pdf)
 
 <use Answers_SBB_(English_translated).pdf>
 Package pdftex.def Info: Answers_SBB_(English_translated).pdf used on input lin
-e 285.
+e 304.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-<Answers_SBB_(English_translated).pdf, id=248, page=1, 597.23125pt x 845.1575pt
+<Answers_SBB_(English_translated).pdf, id=251, page=1, 597.23125pt x 845.1575pt
 >
 File: Answers_SBB_(English_translated).pdf Graphic file (type pdf)
  <use Answers_SBB_(English_translated).pdf, page 1>
 Package pdftex.def Info: Answers_SBB_(English_translated).pdf, page1 used on in
-put line 285.
+put line 304.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: Answers_SBB_(English_translated).pdf Graphic file (type pdf)
 
 <use Answers_SBB_(English_translated).pdf, page 1>
 Package pdftex.def Info: Answers_SBB_(English_translated).pdf, page1 used on in
-put line 285.
+put line 304.
 (pdftex.def)             Requested size: 477.78564pt x 676.12692pt.
 File: Answers_SBB_(English_translated).pdf Graphic file (type pdf)
 
 <use Answers_SBB_(English_translated).pdf, page 1>
 Package pdftex.def Info: Answers_SBB_(English_translated).pdf, page1 used on in
-put line 285.
+put line 304.
 (pdftex.def)             Requested size: 477.78564pt x 676.12692pt.
 File: Answers_SBB_(English_translated).pdf Graphic file (type pdf)
 
 <use Answers_SBB_(English_translated).pdf, page 1>
 Package pdftex.def Info: Answers_SBB_(English_translated).pdf, page1 used on in
-put line 285.
+put line 304.
 (pdftex.def)             Requested size: 477.78564pt x 676.12692pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 291.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 310.
 File: Answers_SBB_(English_translated).pdf Graphic file (type pdf)
 
 <use Answers_SBB_(English_translated).pdf, page 1>
 Package pdftex.def Info: Answers_SBB_(English_translated).pdf, page1 used on in
-put line 291.
+put line 310.
 (pdftex.def)             Requested size: 477.78564pt x 676.12692pt.
- [16 <./Answers_SBB_(English_translated).pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 291.
+ [17 <./Answers_SBB_(English_translated).pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 310.
 
 (/Users/eliasriederalt/CloudStation/MsssM/Elias-und-Mario/doc/latex/.texpadtmp/
 reportTemplate.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 291.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 291.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 310.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 310.
 Package rerunfilecheck Info: File `reportTemplate.out' has not changed.
 (rerunfilecheck)             Checksum: 4117AFDEC750B1D65D56B07DE9D4EF4D;1436.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 291.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 310.
  ) 
 Here is how much of TeX's memory you used:
- 7972 strings out of 493117
- 116302 string characters out of 6135433
- 217336 words of memory out of 5000000
+ 7973 strings out of 493117
+ 116309 string characters out of 6135433
+ 216336 words of memory out of 5000000
  11262 multiletter control sequences out of 15000+600000
  12587 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,19n,44p,1101b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,19n,44p,1101b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
@@ -824,10 +811,10 @@ exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
 ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
 Output written on /Users/eliasriederalt/CloudStation/MsssM/Elias-und-Mario/doc/
-latex/.texpadtmp/reportTemplate.pdf (16 pages, 42799348 bytes).
+latex/.texpadtmp/reportTemplate.pdf (17 pages, 42801674 bytes).
 PDF statistics:
- 339 PDF objects out of 1000 (max. 8388607)
- 274 compressed objects within 3 object streams
- 46 named destinations out of 1000 (max. 500000)
+ 342 PDF objects out of 1000 (max. 8388607)
+ 276 compressed objects within 3 object streams
+ 47 named destinations out of 1000 (max. 500000)
  270 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -153,6 +153,8 @@ The notes also allowed as to implement a function which checks if a network is s
 
 
 \section{Simulation Results and Discussion}
+\textbf{Note}: When the x-axis is labeld cities with number this is always referring to our city-vector, which is sorted by the size of its population (Zuerich, Genf, Basel, Lausanne, Bern, Winterthur, Luzern, St.Gallen, Lugano, Biel, Thun, Koeniz, Chaux-de-Fonds, Schaffhausen, Freiburg, Chur, Neuenburg, Vernier, Uster, Sion, Olten, Arthgoldau)$_{3}$
+
 
 \subsection{General Network Parameters}
 \begin{figure}[h]
@@ -170,6 +172,8 @@ The notes also allowed as to implement a function which checks if a network is s
 The full connected network is the genaral network from the gravity function, where everything is connected. The connected network is the one developed by us (only connected if there is a direct link).
 
 Beside other obvious observations, it is quiet intuitive, that $\phi$ rises with less links between nodes. One surprisingly observation was that allthough that the mean link rises with a factor 5, the average node flow only sinks by a factor 2.\newline
+
+To investigate more network parameters like node distribution more nodes would be needed. Since in our model each nodeweight or nodedegree appears nearly only once.
 
 The detailed definitions of these parameters are described in reference 6 
 
@@ -220,23 +224,37 @@ Unfortunatley none of our approaches could answer our questions about capacity. 
 
 \section{Summary and Outlook}
 
-The result, a model of the swiss train system, that came out had its advantages and disadvantages. Our goal to model the swiss train system was maybe aimed a bit high. We couldnt answer our questions about resilience and capacity as detailed as desired. What functioned very well is the model of the people flow. The connected network could model the flows bether than the classic full connected gravity model????\newline 
+The model of the swiss train network had its strength and weaknesses. Our goal to model the swiss train network was maybe aimed a bit high. We could not answer our questions about resilience and capacity as detailed as desired. 
 
- 
+The gravity model gives in general a good approxiamtion for the flow of the cities besides important nodes in the real system like olten which have not a very huge population. Therefor the gravity model is good to approximate the flow of big cities. But this also means you will not find other high flows in the network. So the question for important nodes can not be modeled with a gravity approach.
 
-We found out quiet interesting things about the Swiss train network and some interesting trails for further research.\newline
+One way to receive another flow would be to change the parameters $\beta_1,\beta_2,\beta_3$ in the gravity function. So one could take the geographical distance more in account than the size of population for example. \newline
 
-One aspect who would be worth investigating are the rushour peaks. Maybe it would be possible to approach them with differential equations, but it seem to become very complex there. Even the newokspecialist from SBB could not  give us a general answer what the demands fora network are to handle peaks efficient. (ref)
-
-
+Our investigations on resilience has shown that the real network is probably not as resistant as the general gravity model. But to real test the network on resilience one would need more nodes since our present network gets disconnected quite early. This would also allow to look at nodedistribution and other parameters. This could may be arrived with the Gtfs-files. Which would also lead to new networks which may have a more realistic flow.
 
 
 
+The answers from SBB also let us suppose that they also try to solve problems in the network with reducing the demand of traffic. So they try to regulate the flow more with economic incentives than with improving or changing the network structure.
+
+We found out quite interesting things about the Swiss train network and some interesting trails for further research.\newline
+
+Another aspect who would be worth investigating are the rushour peaks. Maybe it would be possible to approach them with differential equations, but it seem to become very complex there. Even the newokspecialist from SBB could not  give us a general answer what the demands for a network are to handle peaks efficient. (ref)
+
+
+
+
+
+
+
+
+\newpage
 
 
 \section{References}
 \begin{itemize}
-\item[1.] Projectfolder]: \url{http://Github.com/EleSwag/Elias-und-Mario} (all code ans files are accesible here).\newline\item[2.] Gravity Model \url{http://en.wikipedia.org/wiki/Gravity_model}\newline\item[3.]List of Citys\url{http://de.wikipedia.org/wiki/Liste_der_Städte_in_der_Schweiz}\newline\item[4.] Important Train Nodes \url{http://de.wikipedia.org/wiki/Eisenbahnknoten/\#Schweiz}\newline\item[5.] SBB online timetable \url{http://www.sbb.ch/fahrplan.html}\newline\item[6.] Olivia Woolley and others  fsfölksflös Complexity in human transportation networks: a comparative analysis of worldwide air transportation and global cargo-ship movements?\newline\item[7.] Vorlesung Algorithmen und Komplexität Angelika Steger ETH Z\"urich\newline
+\item[1.] Projectfolder: \url{http://Github.com/EleSwag/Elias-und-Mario} 
+
+(all code and files are accessible here).\newline\item[2.] Gravity Model \url{http://en.wikipedia.org/wiki/Gravity_model}\newline\item[3.]List of Cities\url{http://de.wikipedia.org/wiki/Liste_der_Städte_in_der_Schweiz}\newline\item[4.] Important Train Nodes \url{http://de.wikipedia.org/wiki/Eisenbahnknoten/\#Schweiz}\newline\item[5.] SBB online timetable \url{http://www.sbb.ch/fahrplan.html}\newline\item[6.] O. Woolley-Meza, C. Thiemann, D.Grady, J.J. Lee, H. Seebens, B. Blasius and D. Brockmann: Complexity in human transportation networks: a comparative analysis of worldwide air transportation and global cargo-ship movements?\newline\item[7.] Vorlesung Algorithmen und Komplexität Angelika Steger ETH Z\"urich\newline
 
 
 SBB Correspondence\newline
@@ -249,11 +267,12 @@ Schweizerische Bundesbahnen SBB\newline
 \item[10.] Nadine Ruch\newline
 Passenger traffic, corporate development,
 demand developmend \newline
+Schweizerische Bundesbahnen SBB\newline
 
-SBB Data:\newline
+SBB Data\newline
 \item[11.] Link for timetable Data \url{http://gtfs.geops.ch}\newline\item[12.] Seat critical trains (Appendix)\newline\item[13.] Answers from Nadine Ruch from SBB (Appendix)\newline
 
-\item[14.] SBB Konzernlagebericht 2013 site 7 absatz 5???????????\url{http://geschaeftsbericht.sbb.ch/fileadmin/user_upload/Downloads/SBB_Konzernlagebericht_GBNB_2013.pdf}\newline
+\item[14.] SBB Konzernlagebericht 2013 page 7 section 5\url{http://geschaeftsbericht.sbb.ch/fileadmin/user_upload/Downloads/SBB_Konzernlagebericht_GBNB_2013.pdf}\newline
 
 \item[15.]Swiss Grid \url{http://en.wikipedia.org/wiki/Swiss_coordinate_system}
 \end{itemize}
